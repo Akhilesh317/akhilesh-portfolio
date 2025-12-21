@@ -1,278 +1,291 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Akhilesh Kumar Gopisetty | Senior Data Engineer (Databricks)</title>
-  <meta name="description" content="Senior Data Engineer / Databricks Consultant portfolio: Azure Databricks, Spark, PySpark, SQL, Airflow, cloud data engineering." />
-  <link rel="stylesheet" href="styles.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akhilesh Kumar Gopisetty - Data Science & ML Engineer</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-  <header class="header">
-    <div class="container">
-      <nav class="nav">
-        <a class="brand" href="#top" aria-label="Home">
-          <span class="brandMark" aria-hidden="true"></span>
-          <span class="brandText">AKG</span>
-        </a>
+    <!-- ============================================ -->
+    <!-- CONFIG / EDIT HERE -->
+    <!-- ============================================ -->
+    <script>
+        const CONFIG = {
+            phoneNumber: '+1 469-450-5500',
+            emailAddress: 'akhileshgopisetty31@gmail.com',
+            emailAddressAlt: 'akg7547@mavs.uta.edu',
+            linkedinUrl: 'https://linkedin.com/in/your-profile',
+            githubUrl: 'https://github.com/your-username',
+            portfolioUrl: 'https://your-portfolio-url.com',
+            resumePath: 'files/resume.pdf',
+            coverLetterPath: 'files/cover-letter.pdf',
+            profileImagePath: 'files/profile.jpg'
+        };
+    </script>
 
-        <div class="navLinks">
-          <a href="#projects">Projects</a>
-          <a href="#experience">Experience</a>
-          <a href="#skills">Skills</a>
-          <a href="#contact" class="btn btnSmall">Contact</a>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">AKG</div>
+                <nav class="nav">
+                    <a href="#about">About</a>
+                    <a href="#experience">Experience</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#education">Education</a>
+                    <a href="#contact">Contact</a>
+                </nav>
+            </div>
         </div>
-      </nav>
+    </header>
 
-      <section id="top" class="hero">
-        <div class="heroLeft">
-          <p class="eyebrow">Senior Data Engineer / Databricks Consultant</p>
-          <h1 class="title">
-            Akhilesh Kumar Gopisetty
-          </h1>
-          <p class="subtitle">
-            I build cloud-scale data platforms on <strong>Azure Databricks</strong> using <strong>Spark/PySpark</strong>,
-            <strong>SQL</strong>, and <strong>Airflow</strong>—focused on migration delivery, reliability, and performance.
-          </p>
-
-          <div class="heroMeta">
-            <span class="pill">Arlington, TX</span>
-            <span class="pill">Azure Databricks</span>
-            <span class="pill">Spark • Delta Lake</span>
-            <span class="pill">Airflow • ETL/ELT</span>
-          </div>
-
-          <div class="heroCtas">
-            <a class="btn" href="#projects">View Projects</a>
-            <a class="btn btnGhost" href="resume.pdf" target="_blank" rel="noopener">Download Resume</a>
-            <a class="btn btnGhost" href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
-            <a class="btn btnGhost" href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
-          </div>
-
-          <p class="micro">
-            Tip: Upload your resume as <code>resume.pdf</code> in the same repo to enable the button.
-          </p>
+    <!-- Hero Section -->
+    <section class="hero" id="about">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1>Akhilesh Kumar Gopisetty</h1>
+                    <p class="hero-title">Data Science & Machine Learning Engineer</p>
+                    <p class="hero-location">Arlington, TX, USA</p>
+                    <p class="hero-summary">Data Science M.S. graduate (GPA 4.0) with 4 years of industry experience in analytics, data engineering, and AI solutions, complemented by 2 years of advanced graduate-level training in machine learning and data science. Experienced in building scalable data pipelines, deploying ML and deep learning models, and optimizing performance through systematic hyperparameter tuning. Strong background in Python, SQL, Databricks, Spark, TensorFlow, PyTorch, and cloud-based data platforms, with experience delivering solutions in a global delivery and consulting environment.</p>
+                    <div class="hero-buttons">
+                        <a href="#" class="btn btn-primary" id="resumeBtn">Download Resume</a>
+                        <a href="#" class="btn btn-secondary" id="coverLetterBtn">Cover Letter</a>
+                        <a href="#contact" class="btn btn-outline">Get in Touch</a>
+                    </div>
+                    <div class="hero-links">
+                        <a href="#" id="emailLink" class="contact-link">Email</a>
+                        <a href="#" id="linkedinLink" class="contact-link" target="_blank">LinkedIn</a>
+                        <a href="#" id="githubLink" class="contact-link" target="_blank">GitHub</a>
+                        <a href="#" id="portfolioLink" class="contact-link" target="_blank">Portfolio</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="" alt="Akhilesh Kumar Gopisetty" id="profileImage">
+                </div>
+            </div>
         </div>
-
-        <div class="heroRight">
-          <div class="card glass">
-            <h2 class="cardTitle">What I deliver</h2>
-            <ul class="checklist">
-              <li><span class="check">✓</span> SAS → Python/PySpark modernization</li>
-              <li><span class="check">✓</span> Databricks ETL/ELT pipelines on ADLS Gen2</li>
-              <li><span class="check">✓</span> Delta Lake + governance (Unity Catalog / Hive Metastore)</li>
-              <li><span class="check">✓</span> Performance tuning for large-scale jobs</li>
-              <li><span class="check">✓</span> Consulting delivery: requirements → build → validation</li>
-            </ul>
-          </div>
-
-          <div class="stats">
-            <div class="stat">
-              <div class="statNum">4+</div>
-              <div class="statLabel">Years</div>
-            </div>
-            <div class="stat">
-              <div class="statNum">300+</div>
-              <div class="statLabel">SAS → Python</div>
-            </div>
-            <div class="stat">
-              <div class="statNum">80%</div>
-              <div class="statLabel">Runtime Gain</div>
-            </div>
-          </div>
-        </div>
-      </section>
-    </div>
-  </header>
-
-  <main>
-    <section id="projects" class="section">
-      <div class="container">
-        <div class="sectionHead">
-          <h2>Projects</h2>
-          <p>Focused, recruiter-friendly case studies. Replace links with your real repos.</p>
-        </div>
-
-        <div class="grid3">
-          <article class="card">
-            <div class="cardTop">
-              <h3>Databricks ETL Migration (Case Study)</h3>
-              <div class="tags">
-                <span class="tag">Azure Databricks</span>
-                <span class="tag">PySpark</span>
-                <span class="tag">Delta Lake</span>
-              </div>
-            </div>
-            <p>
-              Enterprise migration blueprint: ingestion, transformations, schema evolution, validation strategy,
-              and operationalization via Jobs/Workflows.
-            </p>
-            <ul class="bullets">
-              <li>Modernized legacy workflows into Spark-native transformations</li>
-              <li>Applied governance patterns using catalog + schema controls</li>
-              <li>Designed for reliability, incremental loads, and auditability</li>
-            </ul>
-            <div class="cardActions">
-              <a class="link" href="https://github.com/" target="_blank" rel="noopener">GitHub Repo</a>
-              <a class="link" href="#" target="_blank" rel="noopener">Architecture (PDF)</a>
-            </div>
-          </article>
-
-          <article class="card">
-            <div class="cardTop">
-              <h3>AroundMe – Agentic AI Local Discovery</h3>
-              <div class="tags">
-                <span class="tag">FastAPI</span>
-                <span class="tag">Google Places</span>
-                <span class="tag">Ranking</span>
-              </div>
-            </div>
-            <p>
-              Production-style API integrating multiple providers with ranking and semantic relevance.
-            </p>
-            <ul class="bullets">
-              <li>Built scalable backend endpoints with structured responses</li>
-              <li>Implemented semantic ranking using DistilBERT embeddings</li>
-              <li>Designed dedupe + relevance logic for better recommendations</li>
-            </ul>
-            <div class="cardActions">
-              <a class="link" href="https://github.com/" target="_blank" rel="noopener">GitHub Repo</a>
-              <a class="link" href="#" target="_blank" rel="noopener">Live Demo</a>
-            </div>
-          </article>
-
-          <article class="card">
-            <div class="cardTop">
-              <h3>ML Project – Predictive Modeling</h3>
-              <div class="tags">
-                <span class="tag">Python</span>
-                <span class="tag">scikit-learn</span>
-                <span class="tag">Evaluation</span>
-              </div>
-            </div>
-            <p>
-              Clean, interpretable ML pipeline focused on feature engineering and model evaluation.
-            </p>
-            <ul class="bullets">
-              <li>Built end-to-end training + validation workflow</li>
-              <li>Tracked performance with metrics and error analysis</li>
-              <li>Documented reproducible experiments and results</li>
-            </ul>
-            <div class="cardActions">
-              <a class="link" href="https://github.com/" target="_blank" rel="noopener">GitHub Repo</a>
-              <a class="link" href="#" target="_blank" rel="noopener">Report</a>
-            </div>
-          </article>
-        </div>
-      </div>
     </section>
 
-    <section id="experience" class="section alt">
-      <div class="container">
-        <div class="sectionHead">
-          <h2>Experience Highlights</h2>
-          <p>Senior-consultant framing: outcome, scale, and platform ownership.</p>
-        </div>
-
-        <div class="timeline">
-          <div class="tItem">
-            <div class="tLeft">
-              <div class="tRole">Senior Data Engineer / Analytics Consultant</div>
-              <div class="tOrg">Tata Consultancy Services (TCS)</div>
-              <div class="tMeta">Feb 2020 – Jan 2024</div>
+    <!-- Skills Section -->
+    <section class="section" id="skills">
+        <div class="container">
+            <h2 class="section-title">Core Technical Skills</h2>
+            <div class="cards-grid">
+                <div class="card">
+                    <h3 class="card-title">Data Engineering & Analytics</h3>
+                    <p class="card-text">Azure Databricks, Apache Spark, PySpark, Delta Lake, Unity Catalog (Hive Metastore), Azure Data Lake Gen2, ETL/ELT Pipelines, Data Modeling, Schema Evolution</p>
+                </div>
+                <div class="card">
+                    <h3 class="card-title">Programming & Query Languages</h3>
+                    <p class="card-text">Python, SQL, PySpark SQL, R, SAS, CQL</p>
+                </div>
+                <div class="card">
+                    <h3 class="card-title">Cloud & Platforms</h3>
+                    <p class="card-text">Microsoft Azure, AWS (EC2, S3, VPC, Route 53), Databricks Notebooks, Jobs, Workflows</p>
+                </div>
+                <div class="card">
+                    <h3 class="card-title">Orchestration & DevOps</h3>
+                    <p class="card-text">Apache Airflow, Docker, Git, GitHub</p>
+                </div>
+                <div class="card">
+                    <h3 class="card-title">Databases</h3>
+                    <p class="card-text">PostgreSQL, MySQL, Oracle (Relational), MongoDB (NoSQL)</p>
+                </div>
+                <div class="card">
+                    <h3 class="card-title">Machine Learning & AI</h3>
+                    <p class="card-text">Feature Engineering, Hyperparameter Tuning, Regression, Classification, scikit-learn, TensorFlow, PyTorch</p>
+                </div>
+                <div class="card">
+                    <h3 class="card-title">Web & Application</h3>
+                    <p class="card-text">Node.js, React.js, HTML, CSS</p>
+                </div>
             </div>
-            <div class="tRight">
-              <ul class="bullets">
-                <li>Migrated 300+ SAS programs to Python/PySpark with validation and parity checks</li>
-                <li>Built Databricks ETL/ELT pipelines supporting billion-row analytics workloads</li>
-                <li>Improved runtime by ~80% via parallelization and pipeline optimization</li>
-                <li>Integrated ADLS Gen2 with Databricks governance patterns (catalog/metastore)</li>
-                <li>Consulting delivery across stakeholders: requirements → design → build → release</li>
-              </ul>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="section section-dark" id="experience">
+        <div class="container">
+            <h2 class="section-title">Professional Experience</h2>
+            <div class="timeline">
+                <div class="card card-large">
+                    <div class="card-header">
+                        <div>
+                            <h3 class="card-title">Senior Data Engineer</h3>
+                            <p class="card-subtitle">Tata Consultancy Services (TCS)</p>
+                        </div>
+                        <p class="card-date">February 2020 – January 2024</p>
+                    </div>
+                    <div class="card-section">
+                        <h4 class="card-section-title">Client: NielsenIQ — SAS to Python & Databricks Migration</h4>
+                        <ul class="card-list">
+                            <li>Migrated 300+ SAS programs to Python and PySpark, ensuring functional parity, validation accuracy, and performance optimization.</li>
+                            <li>Designed and implemented large-scale ETL/ELT pipelines in Azure Databricks processing billion-row datasets for enterprise analytics.</li>
+                            <li>Improved Python execution runtime by approximately 80% using parallel processing on Linux-based environments.</li>
+                            <li>Delivered the only on-time project among 27 global initiatives through disciplined execution and stakeholder alignment.</li>
+                            <li>Collaborated with cross-functional and client stakeholders to align technical solutions with business requirements.</li>
+                        </ul>
+                    </div>
+                    <div class="card-section">
+                        <h4 class="card-section-title">Client: GSK Pharma — Medical Data Engineering & Databricks Migration</h4>
+                        <ul class="card-list">
+                            <li>Built enterprise-grade data pipelines for clinical and medical datasets sourced from EDC systems including Inform and Veeva Vault.</li>
+                            <li>Migrated complex SAS-based ETL workflows to Azure Databricks using PySpark, handling semi-structured and evolving schemas.</li>
+                            <li>Integrated Azure Data Lake Gen2 with Databricks using Unity Catalog / Hive Metastore for centralized metadata governance.</li>
+                            <li>Automated schema extraction and applied 50+ medical formulas to streamline analytics and reporting workflows.</li>
+                            <li>Debugged over 100 legacy SAS programs within 24 hours, preventing critical pipeline failures in production.</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-
-      </div>
     </section>
 
-    <section id="skills" class="section">
-      <div class="container">
-        <div class="sectionHead">
-          <h2>Core Skills</h2>
-          <p>Databricks-first positioning with supporting skills clearly separated.</p>
+    <!-- Projects Section -->
+    <section class="section" id="projects">
+        <div class="container">
+            <h2 class="section-title">Academic & Industry Projects</h2>
+            <div class="cards-grid">
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">AroundMe — Agentic AI Local Discovery Platform</h3>
+                        <p class="card-date">Aug 2025 – Dec 2025</p>
+                    </div>
+                    <p class="card-text">Built a production-style FastAPI backend integrating Google Places and Yelp APIs with custom ranking logic and geospatial queries. Implemented DistilBERT-based semantic analysis to improve recommendation relevance in a scalable API workflow.</p>
+                    <a href="https://github.com/your-username/aroundme" class="card-link" target="_blank">View on GitHub →</a>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">AI-Driven Fitness Tracker Platform</h3>
+                        <p class="card-date">Jan 2025 – Apr 2025</p>
+                    </div>
+                    <p class="card-text">Developed a full-stack web application using React, Node.js, Prisma, MySQL, and OpenAI APIs to deliver personalized workout and diet recommendations.</p>
+                    <a href="https://github.com/your-username/fitness-tracker" class="card-link" target="_blank">View on GitHub →</a>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">Power Consumption Prediction Using Machine Learning</h3>
+                        <p class="card-date">Aug 2024 – Dec 2024</p>
+                    </div>
+                    <p class="card-text">Built regression models to predict household energy consumption, focusing on feature engineering, evaluation metrics, and interpretability.</p>
+                    <a href="https://github.com/your-username/power-consumption-prediction" class="card-link" target="_blank">View on GitHub →</a>
+                </div>
+                <div class="card">
+                    <div class="card-header">
+                        <h3 class="card-title">Breast Cancer Detection Using VGG16</h3>
+                        <p class="card-date">Aug 2024 – Dec 2024</p>
+                    </div>
+                    <p class="card-text">Developed deep learning pipelines using TensorFlow and PyTorch, performing systematic hyperparameter tuning and evaluating accuracy, precision-recall, and generalization performance.</p>
+                    <a href="https://github.com/your-username/breast-cancer-detection" class="card-link" target="_blank">View on GitHub →</a>
+                </div>
+            </div>
         </div>
-
-        <div class="grid2">
-          <div class="card">
-            <h3>Data Engineering</h3>
-            <p class="skillLine">
-              Azure Databricks, Spark, PySpark, Delta Lake, Unity Catalog / Hive Metastore, ADLS Gen2, ETL/ELT, Data Modeling
-            </p>
-          </div>
-
-          <div class="card">
-            <h3>Cloud & Orchestration</h3>
-            <p class="skillLine">
-              Azure, AWS (EC2, S3), Databricks Jobs/Workflows, Apache Airflow, Docker, Git/GitHub
-            </p>
-          </div>
-
-          <div class="card">
-            <h3>Languages & Databases</h3>
-            <p class="skillLine">
-              Python, SQL, PySpark SQL, SAS; PostgreSQL, MySQL, Oracle, MongoDB
-            </p>
-          </div>
-
-          <div class="card">
-            <h3>ML + Web (Supporting)</h3>
-            <p class="skillLine">
-              Feature Engineering, Hyperparameter Tuning, Regression, Classification; scikit-learn, TensorFlow, PyTorch; Node.js, React, HTML, CSS
-            </p>
-          </div>
-        </div>
-      </div>
     </section>
 
-    <section id="contact" class="section alt">
-      <div class="container">
-        <div class="sectionHead">
-          <h2>Contact</h2>
-          <p>Make it easy for recruiters to reach you.</p>
+    <!-- Achievements Section -->
+    <section class="section section-dark">
+        <div class="container">
+            <h2 class="section-title">Key Achievements</h2>
+            <div class="card card-large">
+                <ul class="card-list achievements-list">
+                    <li>Reduced ETL and analytics runtime by 80% across large-scale Databricks migration projects.</li>
+                    <li>Delivered the only on-time global migration project across a 27-project client portfolio.</li>
+                    <li>Debugged over 100 legacy SAS programs within 24 hours during critical delivery windows.</li>
+                    <li>Built end-to-end data platforms spanning ingestion, transformation, governance, and analytics.</li>
+                </ul>
+            </div>
         </div>
-
-        <div class="contactCard">
-          <div>
-            <div class="contactLabel">Email</div>
-            <a class="contactLink" href="mailto:akhileshgopisetty31@gmail.com">akhileshgopisetty31@gmail.com</a>
-          </div>
-          <div>
-            <div class="contactLabel">LinkedIn</div>
-            <a class="contactLink" href="https://www.linkedin.com/" target="_blank" rel="noopener">Open LinkedIn</a>
-          </div>
-          <div>
-            <div class="contactLabel">GitHub</div>
-            <a class="contactLink" href="https://github.com/" target="_blank" rel="noopener">Open GitHub</a>
-          </div>
-          <div>
-            <div class="contactLabel">Location</div>
-            <div class="contactText">Arlington, Texas</div>
-          </div>
-        </div>
-
-        <footer class="footer">
-          <span>© <span id="year"></span> Akhilesh Kumar Gopisetty</span>
-          <span class="footerSep">•</span>
-          <span>Built with HTML & CSS</span>
-        </footer>
-      </div>
     </section>
-  </main>
 
-  <script>
-    document.getElementById('year').textContent = new Date().getFullYear();
-  </script>
+    <!-- Education & Certifications Section -->
+    <section class="section" id="education">
+        <div class="container">
+            <h2 class="section-title">Education & Certifications</h2>
+            <div class="cards-grid">
+                <div class="card">
+                    <h3 class="card-title">Master of Science in Data Science</h3>
+                    <p class="card-subtitle">University of Texas at Arlington, Arlington, TX</p>
+                    <p class="card-text">GPA: 4.00 / 4.00</p>
+                    <p class="card-date">January 2024 – December 2025</p>
+                </div>
+                <div class="card">
+                    <h3 class="card-title">Bachelor of Engineering in Mechanical Engineering</h3>
+                    <p class="card-subtitle">Andhra University, Andhra Pradesh, India</p>
+                    <p class="card-text">Percentage: 72.3%</p>
+                    <p class="card-date">July 2015 – April 2019</p>
+                </div>
+                <div class="card">
+                    <h3 class="card-title">Microsoft Azure Fundamentals (AZ-900)</h3>
+                    <p class="card-subtitle">Microsoft Certification</p>
+                </div>
+                <div class="card">
+                    <h3 class="card-title">Microsoft Career Essentials in Generative AI</h3>
+                    <p class="card-subtitle">Microsoft Certification</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section section-dark" id="contact">
+        <div class="container">
+            <div class="contact-content">
+                <h2 class="section-title">Get in Touch</h2>
+                <p class="contact-description">Open to data engineering, ML engineering, and full-stack development opportunities.</p>
+                <div class="contact-cards">
+                    <div class="card contact-card">
+                        <h3 class="card-title">Email</h3>
+                        <a href="#" class="contact-value" id="emailContact"></a>
+                        <a href="#" class="contact-value" id="emailContactAlt"></a>
+                    </div>
+                    <div class="card contact-card">
+                        <h3 class="card-title">Phone</h3>
+                        <a href="#" class="contact-value" id="phoneContact"></a>
+                    </div>
+                    <div class="card contact-card">
+                        <h3 class="card-title">Location</h3>
+                        <p class="contact-value">Arlington, TX, USA</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Akhilesh Kumar Gopisetty. All rights reserved.</p>
+                <div class="footer-links">
+                    <a href="#" id="footerLinkedin" target="_blank">LinkedIn</a>
+                    <a href="#" id="footerGithub" target="_blank">GitHub</a>
+                    <a href="#" id="footerEmail">Email</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Initialize Config -->
+    <script>
+        // Apply CONFIG values to elements
+        document.getElementById('profileImage').src = CONFIG.profileImagePath;
+        document.getElementById('resumeBtn').href = CONFIG.resumePath;
+        document.getElementById('coverLetterBtn').href = CONFIG.coverLetterPath;
+        document.getElementById('emailLink').href = 'mailto:' + CONFIG.emailAddress;
+        document.getElementById('linkedinLink').href = CONFIG.linkedinUrl;
+        document.getElementById('githubLink').href = CONFIG.githubUrl;
+        document.getElementById('portfolioLink').href = CONFIG.portfolioUrl;
+        document.getElementById('emailContact').href = 'mailto:' + CONFIG.emailAddress;
+        document.getElementById('emailContact').textContent = CONFIG.emailAddress;
+        document.getElementById('emailContactAlt').href = 'mailto:' + CONFIG.emailAddressAlt;
+        document.getElementById('emailContactAlt').textContent = CONFIG.emailAddressAlt;
+        document.getElementById('phoneContact').href = 'tel:' + CONFIG.phoneNumber;
+        document.getElementById('phoneContact').textContent = CONFIG.phoneNumber;
+        document.getElementById('footerLinkedin').href = CONFIG.linkedinUrl;
+        document.getElementById('footerGithub').href = CONFIG.githubUrl;
+        document.getElementById('footerEmail').href = 'mailto:' + CONFIG.emailAddress;
+    </script>
 </body>
 </html>
