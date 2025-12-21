@@ -3,344 +3,538 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Akhilesh Kumar Gopisetty - Data Science & ML Engineer</title>
+    <title>Akhilesh Kumar Gopisetty | Data Science | Data Engineer | ML Ops</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <!-- ============================================ -->
-    <!-- CONFIG / EDIT HERE -->
-    <!-- ============================================ -->
-    <script>
-        const CONFIG = {
-            phoneNumber: '+1 469-450-5500',
-            emailAddress: 'akhileshgopisetty31@gmail.com',
-            emailAddressAlt: 'akg7547@mavs.uta.edu',
-            linkedinUrl: 'https://linkedin.com/in/your-profile',
-            githubUrl: 'https://github.com/your-username',
-            portfolioUrl: 'https://your-portfolio-url.com',
-            resumePath: 'files/resume.pdf',
-            coverLetterPath: 'files/cover-letter.pdf',
-            profileImagePath: 'files/profile.jpg'
-        };
-    </script>
-
     <!-- Navigation -->
-    <nav class="navbar">
-        <div class="container">
-            <div class="nav-content">
-                <div class="nav-logo">AKG</div>
-                <div class="nav-links">
-                    <a href="#home">Home</a>
-                    <a href="#impact">Impact</a>
-                    <a href="#expertise">Expertise</a>
-                    <a href="#work">Work</a>
-                    <a href="#contact">Contact</a>
-                </div>
+    <nav class="nav">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">Akhilesh Kumar Gopisetty</span>
+            </div>
+            <div class="nav-links">
+                <a href="#about">About</a>
+                <a href="#experience">Experience</a>
+                <a href="#projects">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="#contact">Contact</a>
             </div>
         </div>
     </nav>
 
-    <!-- Hero -->
-    <section class="hero" id="home">
-        <div class="particles"></div>
+    <!-- Hero Section -->
+    <section class="hero">
+    <div class="hero-background">
+        <div class="grid-pattern"></div>
+        <div class="gradient-orb orb-1"></div>
+        <div class="gradient-orb orb-2"></div>
+    </div>
+    <div class="hero-content">
+        <div class="hero-text">
+            <div class="hero-label">DATA SCIENCE | DATA ENGINEERING | ML OPS</div>
+            <h1 class="hero-title">
+                Designing and delivering <br>
+                <span class="highlight">cloud-scale data platforms with Databricks</span>
+            </h1>
+            <p class="hero-subtitle">
+                M.S. Data Science graduate with 4 years of enterprise experience architecting 
+                scalable ML pipelines, optimizing billion-row ETL workflows, and shipping 
+                production AI solutions across Azure, Databricks, and cloud platforms.
+            </p>
+            <div class="hero-cta">
+                <a href="#projects" class="btn btn-primary">View Projects</a>
+                <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+            </div>
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <div class="stat-number">4.0</div>
+                    <div class="stat-label">GPA</div>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <div class="stat-number">4</div>
+                    <div class="stat-label">Years Industry</div>
+                </div>
+                <div class="stat-divider"></div>
+                <div class="stat-item">
+                    <div class="stat-number">300+</div>
+                    <div class="stat-label">Programs Migrated</div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Image Slideshow -->
+        <div class="hero-slideshow">
+            <div class="slideshow-container">
+                <div class="slide active">
+                    <img src="files/image1.png" alt="Akhilesh Kumar Gopisetty - Image 1">
+                </div>
+                <div class="slide">
+                    <img src="files/image2.png" alt="Akhilesh Kumar Gopisetty - Image 2">
+                </div>
+                <div class="slide">
+                    <img src="files/image3.png" alt="Akhilesh Kumar Gopisetty - Image 3">
+                </div>
+                <div class="slide">
+                    <img src="files/image4.png" alt="Akhilesh Kumar Gopisetty - Image 4">
+                </div>
+            </div>
+            <div class="slideshow-indicators">
+                <span class="indicator active" data-slide="0"></span>
+                <span class="indicator" data-slide="1"></span>
+                <span class="indicator" data-slide="2"></span>
+                <span class="indicator" data-slide="3"></span>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- About Section -->
+    <section id="about" class="section about-section">
         <div class="container">
-            <div class="hero-layout">
-                <div class="hero-main">
-                    <div class="hero-image-mobile">
-                        <img src="" alt="Akhilesh" id="profileImageMobile">
-                    </div>
-                    <h1 class="hero-heading">
-                        Transforming Data into<br>
-                        <span class="gradient-text">Intelligent Solutions</span>
-                    </h1>
-                    <p class="hero-lead">
-                        Senior Data Engineer crafting scalable ML platforms and cloud-native data pipelines 
-                        that drive enterprise transformation
+            <div class="section-header">
+                <span class="section-number">01</span>
+                <h2 class="section-title">About Me</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-lead">
+                        I architect end-to-end data solutions that transform raw information into 
+                        actionable intelligence, combining deep technical expertise with a systematic 
+                        approach to solving complex engineering challenges.
                     </p>
-                    <div class="hero-cta">
-                        <a href="#" class="cta-primary" id="resumeBtn">
-                            <span>View Resume</span>
-                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none">
-                                <path d="M7.5 15L12.5 10L7.5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-                            </svg>
-                        </a>
-                        <a href="#contact" class="cta-secondary">Let's Connect</a>
-                    </div>
-                    <div class="hero-badges">
-                        <div class="badge">4.0 GPA • M.S. Data Science</div>
-                        <div class="badge">4+ Years Enterprise Experience</div>
-                        <div class="badge">TCS Senior Engineer</div>
-                    </div>
+                    <p>
+                        My experience spans the full spectrum of modern data engineering—from designing 
+                        high-throughput ETL pipelines processing billions of records in Azure Databricks, 
+                        to deploying deep learning models with TensorFlow and PyTorch, to building 
+                        production-grade APIs that integrate multiple data sources with intelligent 
+                        ranking algorithms.
+                    </p>
+                    <p>
+                        At Tata Consultancy Services, I led critical infrastructure migrations for global 
+                        clients including NielsenIQ and GSK Pharma, achieving 80% runtime improvements 
+                        and delivering the only on-time project across a 27-initiative portfolio. I thrive 
+                        in high-stakes environments where technical precision and execution discipline 
+                        directly impact business outcomes.
+                    </p>
+                    <p>
+                        Currently, I'm focused on the intersection of classical ML and modern AI—building 
+                        systems that leverage both foundational algorithms and cutting-edge techniques to 
+                        solve real-world problems with measurable impact.
+                    </p>
                 </div>
-                <div class="hero-visual">
-                    <div class="profile-container">
-                        <div class="profile-ring"></div>
-                        <img src="" alt="Akhilesh" class="profile-img" id="profileImage">
+                <div class="about-highlights">
+                    <div class="highlight-card">
+                        <div class="highlight-icon">🎓</div>
+                        <h3>Education</h3>
+                        <p class="highlight-title">M.S. Data Science</p>
+                        <p class="highlight-detail">University of Texas at Arlington</p>
+                        <p class="highlight-gpa">4.0 / 4.0 GPA</p>
                     </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Impact Metrics -->
-    <section class="impact-section" id="impact">
-        <div class="container">
-            <div class="impact-grid">
-                <div class="impact-card">
-                    <div class="impact-visual">
-                        <div class="metric-circle">
-                            <span class="metric-number">80%</span>
-                        </div>
+                    <div class="highlight-card">
+                        <div class="highlight-icon">🏆</div>
+                        <h3>Key Achievement</h3>
+                        <p class="highlight-title">80% Performance Gain</p>
+                        <p class="highlight-detail">Optimized enterprise ETL runtimes through parallel processing</p>
                     </div>
-                    <h3>Runtime Optimization</h3>
-                    <p>Reduced ETL processing time across billion-row datasets</p>
-                </div>
-                <div class="impact-card">
-                    <div class="impact-visual">
-                        <div class="metric-circle">
-                            <span class="metric-number">300+</span>
-                        </div>
-                    </div>
-                    <h3>Migration Scale</h3>
-                    <p>SAS programs migrated to Python & Databricks</p>
-                </div>
-                <div class="impact-card">
-                    <div class="impact-visual">
-                        <div class="metric-circle">
-                            <span class="metric-number">1/27</span>
-                        </div>
-                    </div>
-                    <h3>Delivery Excellence</h3>
-                    <p>Only on-time project across global portfolio</p>
-                </div>
-                <div class="impact-card">
-                    <div class="impact-visual">
-                        <div class="metric-circle">
-                            <span class="metric-number">24h</span>
-                        </div>
-                    </div>
-                    <h3>Crisis Resolution</h3>
-                    <p>Debugged 100+ critical programs preventing production failure</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Expertise -->
-    <section class="expertise-section" id="expertise">
-        <div class="container">
-            <div class="section-intro">
-                <h2>What I Build</h2>
-                <p>Enterprise-grade solutions at the intersection of data engineering and machine learning</p>
-            </div>
-            <div class="expertise-grid">
-                <div class="expertise-card cloud">
-                    <div class="expertise-icon">☁️</div>
-                    <h3>Cloud Data Platforms</h3>
-                    <p>Azure Databricks • Spark • Delta Lake • Data Lake Gen2</p>
-                    <div class="expertise-highlight">Billion-row scale processing</div>
-                </div>
-                <div class="expertise-card ml">
-                    <div class="expertise-icon">🤖</div>
-                    <h3>ML Engineering</h3>
-                    <p>TensorFlow • PyTorch • scikit-learn • Feature Engineering</p>
-                    <div class="expertise-highlight">Production-ready pipelines</div>
-                </div>
-                <div class="expertise-card data">
-                    <div class="expertise-icon">⚡</div>
-                    <h3>Data Engineering</h3>
-                    <p>Python • PySpark • SQL • ETL/ELT Workflows</p>
-                    <div class="expertise-highlight">Real-time & batch processing</div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Work Experience -->
-    <section class="work-section" id="work">
-        <div class="container">
-            <div class="section-intro">
-                <h2>Where I've Made Impact</h2>
-            </div>
-            <div class="work-timeline">
-                <div class="work-card">
-                    <div class="work-header">
-                        <div class="work-title-group">
-                            <h3>Senior Data Engineer</h3>
-                            <div class="work-company">Tata Consultancy Services</div>
-                        </div>
-                        <div class="work-period">2020 - 2024</div>
-                    </div>
-                    <div class="work-highlights">
-                        <div class="highlight-item">
-                            <span class="highlight-label">NielsenIQ</span>
-                            <span class="highlight-desc">Led enterprise-scale SAS to Python/Databricks migration • Delivered only on-time project in 27-project global portfolio</span>
-                        </div>
-                        <div class="highlight-item">
-                            <span class="highlight-label">GSK Pharma</span>
-                            <span class="highlight-desc">Built medical data pipelines for clinical systems • Automated schema extraction for 50+ medical formulas</span>
-                        </div>
-                    </div>
-                    <div class="tech-stack">
-                        <span>Azure Databricks</span>
-                        <span>PySpark</span>
-                        <span>Python</span>
-                        <span>ETL/ELT</span>
-                        <span>Delta Lake</span>
+                    <div class="highlight-card">
+                        <div class="highlight-icon">📍</div>
+                        <h3>Location</h3>
+                        <p class="highlight-title">Arlington, Texas</p>
+                        <p class="highlight-detail">Open to remote & hybrid opportunities</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Projects -->
-    <section class="projects-section">
+    <!-- Experience Section -->
+    <section id="experience" class="section experience-section">
         <div class="container">
-            <div class="section-intro">
-                <h2>Featured Projects</h2>
-                <p>Academic and side projects exploring AI, ML, and full-stack development</p>
+            <div class="section-header">
+                <span class="section-number">02</span>
+                <h2 class="section-title">Professional Journey</h2>
             </div>
+            
+            <div class="experience-timeline">
+                <!-- TCS Experience -->
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="experience-card">
+                            <div class="experience-header">
+                                <div>
+                                    <h3 class="experience-title">Senior Data Engineer</h3>
+                                    <p class="experience-company">Tata Consultancy Services</p>
+                                </div>
+                                <span class="experience-period">Feb 2020 – Jan 2024</span>
+                            </div>
+                            
+                            <!-- NielsenIQ Project -->
+                            <div class="project-subsection">
+                                <h4 class="project-client">NielsenIQ — Enterprise Analytics Migration</h4>
+                                <div class="experience-tags">
+                                    <span class="tag">Azure Databricks</span>
+                                    <span class="tag">PySpark</span>
+                                    <span class="tag">Python</span>
+                                    <span class="tag">ETL Pipelines</span>
+                                </div>
+                                <ul class="experience-achievements">
+                                    <li>
+                                        <strong>Spearheaded migration of 300+ SAS programs</strong> to Python and PySpark, 
+                                        establishing validation frameworks that ensured functional accuracy across 
+                                        billion-row datasets
+                                    </li>
+                                    <li>
+                                        <strong>Engineered high-performance ETL pipelines</strong> in Azure Databricks 
+                                        processing enterprise-scale analytics workloads with optimized Delta Lake implementations
+                                    </li>
+                                    <li>
+                                        <strong>Achieved 80% runtime reduction</strong> by implementing parallel processing 
+                                        architectures on Linux environments, dramatically accelerating data transformation workflows
+                                    </li>
+                                    <li>
+                                        <strong>Delivered the sole on-schedule project</strong> among 27 concurrent global 
+                                        initiatives through systematic execution planning and proactive stakeholder management
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <!-- GSK Project -->
+                            <div class="project-subsection">
+                                <h4 class="project-client">GSK Pharma — Clinical Data Infrastructure</h4>
+                                <div class="experience-tags">
+                                    <span class="tag">Medical Data</span>
+                                    <span class="tag">Unity Catalog</span>
+                                    <span class="tag">Data Lake Gen2</span>
+                                    <span class="tag">Schema Evolution</span>
+                                </div>
+                                <ul class="experience-achievements">
+                                    <li>
+                                        <strong>Built production data pipelines</strong> for clinical datasets from EDC 
+                                        systems (Inform, Veeva Vault), handling complex semi-structured medical data
+                                    </li>
+                                    <li>
+                                        <strong>Architected Databricks-Azure Data Lake integration</strong> using Unity 
+                                        Catalog and Hive Metastore for centralized governance and metadata management
+                                    </li>
+                                    <li>
+                                        <strong>Automated schema extraction and medical formula application</strong> across 
+                                        50+ clinical calculations, streamlining analytics workflows for regulatory reporting
+                                    </li>
+                                    <li>
+                                        <strong>Prevented critical production failures</strong> by debugging 100+ legacy 
+                                        SAS programs within 24-hour emergency window during pipeline crisis
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Education -->
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="experience-card education-card">
+                            <div class="experience-header">
+                                <div>
+                                    <h3 class="experience-title">M.S. Data Science</h3>
+                                    <p class="experience-company">University of Texas at Arlington</p>
+                                </div>
+                                <span class="experience-period">Jan 2024 – Dec 2025</span>
+                            </div>
+                            <p class="education-desc">
+                                Advanced graduate training in machine learning, deep learning, and statistical modeling. 
+                                Maintained perfect 4.0 GPA while building comprehensive project portfolio spanning 
+                                supervised/unsupervised learning, NLP, computer vision, and production ML systems.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section projects-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-number">03</span>
+                <h2 class="section-title">Featured Projects</h2>
+            </div>
+            
             <div class="projects-grid">
+                <!-- AroundMe Project -->
                 <div class="project-card featured">
-                    <div class="project-label">Latest</div>
-                    <h3>AroundMe</h3>
-                    <p>Agentic AI platform for local discovery with semantic ranking</p>
+                    <div class="project-label">LATEST PROJECT</div>
+                    <h3 class="project-title">AroundMe</h3>
+                    <p class="project-subtitle">Agentic AI Local Discovery Platform</p>
+                    <p class="project-description">
+                        Production-grade FastAPI backend integrating Google Places and Yelp APIs with 
+                        custom ranking algorithms and geospatial query optimization. Implemented 
+                        DistilBERT semantic analysis to enhance recommendation relevance through 
+                        natural language understanding of user preferences.
+                    </p>
                     <div class="project-tech">
-                        <span>FastAPI</span>
-                        <span>DistilBERT</span>
-                        <span>Geospatial</span>
+                        <span class="tech-tag">FastAPI</span>
+                        <span class="tech-tag">DistilBERT</span>
+                        <span class="tech-tag">NLP</span>
+                        <span class="tech-tag">Google Places API</span>
+                        <span class="tech-tag">Geospatial</span>
                     </div>
-                    <a href="https://github.com/your-username/aroundme" class="project-link">
-                        <span>View Project</span>
-                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-                            <path d="M6 12L10 8L6 4" stroke="currentColor" stroke-width="2"/>
-                        </svg>
-                    </a>
+                    <div class="project-meta">
+                        <span class="project-date">Aug 2025 – Dec 2025</span>
+                    </div>
                 </div>
+
+                <!-- Fitness Tracker Project -->
                 <div class="project-card">
-                    <h3>AI Fitness Tracker</h3>
-                    <p>Full-stack platform with personalized recommendations</p>
+                    <h3 class="project-title">AI-Driven Fitness Platform</h3>
+                    <p class="project-subtitle">Full-Stack Personalized Health Application</p>
+                    <p class="project-description">
+                        End-to-end web application delivering personalized workout and nutrition plans 
+                        through OpenAI integration. Built with React frontend, Node.js backend, Prisma ORM, 
+                        and MySQL database, demonstrating full-stack engineering capabilities with modern 
+                        web technologies.
+                    </p>
                     <div class="project-tech">
-                        <span>React</span>
-                        <span>Node.js</span>
-                        <span>OpenAI</span>
+                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">Node.js</span>
+                        <span class="tech-tag">Prisma</span>
+                        <span class="tech-tag">MySQL</span>
+                        <span class="tech-tag">OpenAI API</span>
                     </div>
-                    <a href="https://github.com/your-username/fitness-tracker" class="project-link">
-                        <span>View Project</span>
-                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-                            <path d="M6 12L10 8L6 4" stroke="currentColor" stroke-width="2"/>
-                        </svg>
-                    </a>
+                    <div class="project-meta">
+                        <span class="project-date">Jan 2025 – Apr 2025</span>
+                    </div>
                 </div>
+
+                <!-- Power Consumption Project -->
                 <div class="project-card">
-                    <h3>Cancer Detection ML</h3>
-                    <p>Deep learning pipeline with VGG16 transfer learning</p>
+                    <h3 class="project-title">Power Consumption Forecasting</h3>
+                    <p class="project-subtitle">ML Regression & Feature Engineering</p>
+                    <p class="project-description">
+                        Regression modeling pipeline for household energy prediction with emphasis on 
+                        systematic feature engineering, model interpretability, and evaluation metric 
+                        selection. Explored multiple algorithms with rigorous cross-validation and 
+                        performance analysis.
+                    </p>
                     <div class="project-tech">
-                        <span>TensorFlow</span>
-                        <span>PyTorch</span>
-                        <span>VGG16</span>
+                        <span class="tech-tag">scikit-learn</span>
+                        <span class="tech-tag">Feature Engineering</span>
+                        <span class="tech-tag">Regression</span>
+                        <span class="tech-tag">Model Evaluation</span>
                     </div>
-                    <a href="https://github.com/your-username/breast-cancer-detection" class="project-link">
-                        <span>View Project</span>
-                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-                            <path d="M6 12L10 8L6 4" stroke="currentColor" stroke-width="2"/>
-                        </svg>
-                    </a>
+                    <div class="project-meta">
+                        <span class="project-date">Aug 2024 – Dec 2024</span>
+                    </div>
                 </div>
+
+                <!-- Breast Cancer Project -->
                 <div class="project-card">
-                    <h3>Energy Prediction ML</h3>
-                    <p>Regression models for household power consumption</p>
+                    <h3 class="project-title">Breast Cancer Detection</h3>
+                    <p class="project-subtitle">Deep Learning for Medical Imaging</p>
+                    <p class="project-description">
+                        VGG16-based convolutional neural network for medical image classification. 
+                        Implemented comprehensive training pipelines in TensorFlow and PyTorch with 
+                        systematic hyperparameter tuning, achieving strong accuracy while maintaining 
+                        generalization performance and clinical relevance.
+                    </p>
                     <div class="project-tech">
-                        <span>Python</span>
-                        <span>scikit-learn</span>
-                        <span>Feature Eng</span>
+                        <span class="tech-tag">TensorFlow</span>
+                        <span class="tech-tag">PyTorch</span>
+                        <span class="tech-tag">VGG16</span>
+                        <span class="tech-tag">Computer Vision</span>
+                        <span class="tech-tag">Medical Imaging</span>
                     </div>
-                    <a href="https://github.com/your-username/power-consumption-prediction" class="project-link">
-                        <span>View Project</span>
-                        <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
-                            <path d="M6 12L10 8L6 4" stroke="currentColor" stroke-width="2"/>
-                        </svg>
-                    </a>
+                    <div class="project-meta">
+                        <span class="project-date">Aug 2024 – Dec 2024</span>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Education -->
-    <section class="education-section">
+    <!-- Skills Section -->
+    <section id="skills" class="section skills-section">
         <div class="container">
-            <div class="education-grid">
-                <div class="edu-card primary">
-                    <div class="edu-badge">Current</div>
-                    <h3>M.S. Data Science</h3>
-                    <div class="edu-school">University of Texas at Arlington</div>
-                    <div class="edu-meta">
-                        <span class="edu-gpa">4.0 GPA</span>
-                        <span class="edu-year">2024 - 2025</span>
+            <div class="section-header">
+                <span class="section-number">04</span>
+                <h2 class="section-title">Technical Arsenal</h2>
+            </div>
+
+            <div class="skills-grid">
+                <!-- Data Engineering -->
+                <div class="skill-category">
+                    <h3 class="skill-category-title">
+                        <span class="skill-icon">⚙️</span>
+                        Data Engineering
+                    </h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Azure Databricks</span>
+                        <span class="skill-tag">Apache Spark</span>
+                        <span class="skill-tag">PySpark</span>
+                        <span class="skill-tag">Delta Lake</span>
+                        <span class="skill-tag">Unity Catalog</span>
+                        <span class="skill-tag">Azure Data Lake Gen2</span>
+                        <span class="skill-tag">ETL/ELT Pipelines</span>
+                        <span class="skill-tag">Data Modeling</span>
+                        <span class="skill-tag">Apache Airflow</span>
                     </div>
                 </div>
-                <div class="edu-card">
-                    <h3>B.E. Mechanical Engineering</h3>
-                    <div class="edu-school">Andhra University</div>
-                    <div class="edu-meta">
-                        <span class="edu-year">2015 - 2019</span>
+
+                <!-- Programming -->
+                <div class="skill-category">
+                    <h3 class="skill-category-title">
+                        <span class="skill-icon">💻</span>
+                        Programming
+                    </h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">PySpark SQL</span>
+                        <span class="skill-tag">R</span>
+                        <span class="skill-tag">SAS</span>
                     </div>
                 </div>
-                <div class="cert-card">
-                    <div class="cert-icon">✓</div>
-                    <div class="cert-name">Azure Fundamentals</div>
-                    <div class="cert-issuer">Microsoft AZ-900</div>
+
+                <!-- Machine Learning -->
+                <div class="skill-category">
+                    <h3 class="skill-category-title">
+                        <span class="skill-icon">🤖</span>
+                        Machine Learning & AI
+                    </h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">scikit-learn</span>
+                        <span class="skill-tag">TensorFlow</span>
+                        <span class="skill-tag">PyTorch</span>
+                        <span class="skill-tag">Feature Engineering</span>
+                        <span class="skill-tag">Hyperparameter Tuning</span>
+                        <span class="skill-tag">NLP (DistilBERT)</span>
+                        <span class="skill-tag">Computer Vision</span>
+                        <span class="skill-tag">Model Optimization</span>
+                    </div>
                 </div>
-                <div class="cert-card">
-                    <div class="cert-icon">✓</div>
-                    <div class="cert-name">Generative AI Essentials</div>
-                    <div class="cert-issuer">Microsoft</div>
+
+                <!-- Cloud & Infrastructure -->
+                <div class="skill-category">
+                    <h3 class="skill-category-title">
+                        <span class="skill-icon">☁️</span>
+                        Cloud & Infrastructure
+                    </h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Microsoft Azure</span>
+                        <span class="skill-tag">AWS (EC2, S3, VPC)</span>
+                        <span class="skill-tag">Docker</span>
+                        <span class="skill-tag">Git & GitHub</span>
+                        <span class="skill-tag">Databricks Workflows</span>
+                    </div>
+                </div>
+
+                <!-- Databases -->
+                <div class="skill-category">
+                    <h3 class="skill-category-title">
+                        <span class="skill-icon">🗄️</span>
+                        Databases
+                    </h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">PostgreSQL</span>
+                        <span class="skill-tag">MySQL</span>
+                        <span class="skill-tag">Oracle</span>
+                        <span class="skill-tag">MongoDB</span>
+                    </div>
+                </div>
+
+                <!-- Web Development -->
+                <div class="skill-category">
+                    <h3 class="skill-category-title">
+                        <span class="skill-icon">🌐</span>
+                        Web Development
+                    </h3>
+                    <div class="skill-tags">
+                        <span class="skill-tag">FastAPI</span>
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">React.js</span>
+                        <span class="skill-tag">Prisma ORM</span>
+                        <span class="skill-tag">RESTful APIs</span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Certifications -->
+            <div class="certifications">
+                <h3 class="certifications-title">Certifications</h3>
+                <div class="cert-list">
+                    <div class="cert-item">
+                        <div class="cert-badge">✓</div>
+                        <span>Microsoft Azure Fundamentals (AZ-900)</span>
+                    </div>
+                    <div class="cert-item">
+                        <div class="cert-badge">✓</div>
+                        <span>Microsoft Career Essentials in Generative AI</span>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Contact -->
-    <section class="contact-section" id="contact">
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
         <div class="container">
+            <div class="section-header">
+                <span class="section-number">05</span>
+                <h2 class="section-title">Let's Connect</h2>
+            </div>
+
             <div class="contact-content">
-                <h2>Let's Build Something</h2>
-                <p class="contact-lead">Open to data engineering, ML engineering, and full-stack opportunities</p>
-                <div class="contact-grid">
-                    <a href="#" class="contact-method" id="emailContact">
-                        <div class="contact-icon">📧</div>
-                        <div class="contact-info">
-                            <div class="contact-label">Email</div>
-                            <div class="contact-value" id="emailValue1"></div>
-                        </div>
-                    </a>
-                    <a href="#" class="contact-method" id="phoneContact">
-                        <div class="contact-icon">📱</div>
-                        <div class="contact-info">
-                            <div class="contact-label">Phone</div>
-                            <div class="contact-value" id="phoneValue"></div>
-                        </div>
-                    </a>
-                    <div class="contact-method">
-                        <div class="contact-icon">📍</div>
-                        <div class="contact-info">
-                            <div class="contact-label">Location</div>
-                            <div class="contact-value">Arlington, TX</div>
-                        </div>
-                    </div>
+                <div class="contact-text">
+                    <p class="contact-lead">
+                        I'm actively seeking opportunities in data engineering, machine learning engineering, 
+                        and data science roles where I can apply my experience building scalable data systems 
+                        and deploying production ML solutions.
+                    </p>
+                    <p>
+                        Whether you're looking to discuss a role, explore collaboration opportunities, or 
+                        simply connect about data engineering and ML, I'm always open to meaningful conversations.
+                    </p>
                 </div>
-                <div class="contact-actions">
-                    <a href="#" class="cta-primary" id="linkedinBtn">
-                        <span>LinkedIn</span>
-                        <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
-                            <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
-                        </svg>
+
+                <div class="contact-methods">
+                    <a href="mailto:akhileshgopisetty31@gmail.com" class="contact-card">
+                        <div class="contact-icon">✉️</div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <p>akhileshgopisetty31@gmail.com</p>
+                        </div>
                     </a>
-                    <a href="#" class="cta-secondary" id="githubBtn">
-                        <span>GitHub</span>
-                        <svg width="20" height="20" viewBox="0 0 20 20" fill="currentColor">
-                            <path d="M10 0c-5.523 0-10 4.477-10 10 0 4.418 2.865 8.166 6.839 9.489.5.092.661-.217.661-.481 0-.237-.009-.866-.014-1.7-2.782.603-3.369-1.34-3.369-1.34-.454-1.156-1.11-1.463-1.11-1.463-.908-.62.069-.608.069-.608 1.003.07 1.532 1.03 1.532 1.03.892 1.529 2.341 1.087 2.91.831.091-.646.349-1.086.635-1.336-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.03-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025a9.578 9.578 0 012.504-.337c.85.004 1.705.114 2.504.337 1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.203 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.743 0 .267.18.578.688.48C17.137 18.163 20 14.418 20 10c0-5.523-4.477-10-10-10z"/>
-                        </svg>
+
+                    <a href="https://linkedin.com/in/your-profile" target="_blank" class="contact-card">
+                        <div class="contact-icon">💼</div>
+                        <div class="contact-details">
+                            <h3>LinkedIn</h3>
+                            <p>Connect professionally</p>
+                        </div>
+                    </a>
+
+                    <a href="https://github.com/your-username" target="_blank" class="contact-card">
+                        <div class="contact-icon">👨‍💻</div>
+                        <div class="contact-details">
+                            <h3>GitHub</h3>
+                            <p>View my code</p>
+                        </div>
+                    </a>
+
+                    <a href="tel:+14694505500" class="contact-card">
+                        <div class="contact-icon">📱</div>
+                        <div class="contact-details">
+                            <h3>Phone</h3>
+                            <p>+1 (469) 450-5500</p>
+                        </div>
                     </a>
                 </div>
             </div>
@@ -351,38 +545,113 @@
     <footer class="footer">
         <div class="container">
             <div class="footer-content">
-                <div class="footer-brand">
-                    <div class="footer-logo">AKG</div>
-                    <p>Data Science & ML Engineering</p>
-                </div>
-                <div class="footer-links">
-                    <a href="#" id="footerResume">Resume</a>
-                    <a href="#" id="footerLinkedin">LinkedIn</a>
-                    <a href="#" id="footerGithub">GitHub</a>
-                    <a href="#" id="footerEmail">Email</a>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2025 Akhilesh Kumar Gopisetty</p>
+                <p>&copy; 2025 Akhilesh Kumar Gopisetty. Built with precision and purpose.</p>
+                <p class="footer-location">Arlington, Texas • Open to Remote Opportunities</p>
             </div>
         </div>
     </footer>
 
-    <!-- Initialize Config -->
     <script>
-        document.getElementById('profileImage').src = CONFIG.profileImagePath;
-        document.getElementById('profileImageMobile').src = CONFIG.profileImagePath;
-        document.getElementById('resumeBtn').href = CONFIG.resumePath;
-        document.getElementById('emailContact').href = 'mailto:' + CONFIG.emailAddress;
-        document.getElementById('emailValue1').textContent = CONFIG.emailAddress;
-        document.getElementById('phoneContact').href = 'tel:' + CONFIG.phoneNumber;
-        document.getElementById('phoneValue').textContent = CONFIG.phoneNumber;
-        document.getElementById('linkedinBtn').href = CONFIG.linkedinUrl;
-        document.getElementById('githubBtn').href = CONFIG.githubUrl;
-        document.getElementById('footerResume').href = CONFIG.resumePath;
-        document.getElementById('footerLinkedin').href = CONFIG.linkedinUrl;
-        document.getElementById('footerGithub').href = CONFIG.githubUrl;
-        document.getElementById('footerEmail').href = 'mailto:' + CONFIG.emailAddress;
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Add active class to nav on scroll
+        const sections = document.querySelectorAll('section[id]');
+        const navLinks = document.querySelectorAll('.nav-links a');
+
+        window.addEventListener('scroll', () => {
+            let current = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+                if (scrollY >= sectionTop - 200) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            navLinks.forEach(link => {
+                link.classList.remove('active');
+                if (link.getAttribute('href') === `#${current}`) {
+                    link.classList.add('active');
+                }
+            });
+        });
+
+        // Intersection Observer for fade-in animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('fade-in');
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.project-card, .skill-category, .experience-card, .highlight-card').forEach(el => {
+            observer.observe(el);
+        });
+
+        // Image Slideshow Functionality
+        let currentSlide = 0;
+        const slides = document.querySelectorAll('.slide');
+        const indicators = document.querySelectorAll('.indicator');
+        const slideInterval = 4000; // 4 seconds
+
+        function showSlide(index) {
+            if (index >= slides.length) {
+                currentSlide = 0;
+            } else if (index < 0) {
+                currentSlide = slides.length - 1;
+            } else {
+                currentSlide = index;
+            }
+            
+            slides.forEach(slide => slide.classList.remove('active'));
+            indicators.forEach(indicator => indicator.classList.remove('active'));
+            
+            slides[currentSlide].classList.add('active');
+            indicators[currentSlide].classList.add('active');
+        }
+
+        function nextSlide() {
+            showSlide(currentSlide + 1);
+        }
+
+        let slideshowTimer = setInterval(nextSlide, slideInterval);
+
+        indicators.forEach((indicator, index) => {
+            indicator.addEventListener('click', () => {
+                showSlide(index);
+                clearInterval(slideshowTimer);
+                slideshowTimer = setInterval(nextSlide, slideInterval);
+            });
+        });
+
+        const slideshowContainer = document.querySelector('.slideshow-container');
+        if (slideshowContainer) {
+            slideshowContainer.addEventListener('mouseenter', () => {
+                clearInterval(slideshowTimer);
+            });
+            
+            slideshowContainer.addEventListener('mouseleave', () => {
+                slideshowTimer = setInterval(nextSlide, slideInterval);
+            });
+        }
     </script>
 </body>
 </html>
