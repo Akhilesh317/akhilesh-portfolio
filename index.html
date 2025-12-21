@@ -1,31 +1,278 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Akhilesh Kumar Gopisetty | Data Engineer</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Akhilesh Kumar Gopisetty | Senior Data Engineer (Databricks)</title>
+  <meta name="description" content="Senior Data Engineer / Databricks Consultant portfolio: Azure Databricks, Spark, PySpark, SQL, Airflow, cloud data engineering." />
+  <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
-  <h1>Akhilesh Kumar Gopisetty</h1>
-  <p>Senior Data Engineer | Databricks | Azure | Spark</p>
+  <header class="header">
+    <div class="container">
+      <nav class="nav">
+        <a class="brand" href="#top" aria-label="Home">
+          <span class="brandMark" aria-hidden="true"></span>
+          <span class="brandText">AKG</span>
+        </a>
 
-  <h2>About Me</h2>
-  <p>
-    Senior Data Engineer with 4+ years of experience in Azure Databricks,
-    Spark, and enterprise data engineering solutions.
-  </p>
+        <div class="navLinks">
+          <a href="#projects">Projects</a>
+          <a href="#experience">Experience</a>
+          <a href="#skills">Skills</a>
+          <a href="#contact" class="btn btnSmall">Contact</a>
+        </div>
+      </nav>
 
-  <h2>Projects</h2>
-  <ul>
-    <li>
-      <strong>AroundMe – Agentic AI Platform</strong><br>
-      FastAPI, APIs, ML ranking<br>
-      <a href="#">GitHub (add later)</a>
-    </li>
-  </ul>
+      <section id="top" class="hero">
+        <div class="heroLeft">
+          <p class="eyebrow">Senior Data Engineer / Databricks Consultant</p>
+          <h1 class="title">
+            Akhilesh Kumar Gopisetty
+          </h1>
+          <p class="subtitle">
+            I build cloud-scale data platforms on <strong>Azure Databricks</strong> using <strong>Spark/PySpark</strong>,
+            <strong>SQL</strong>, and <strong>Airflow</strong>—focused on migration delivery, reliability, and performance.
+          </p>
 
-  <h2>Contact</h2>
-  <p>
-    <a href="https://www.linkedin.com">LinkedIn</a>
-  </p>
+          <div class="heroMeta">
+            <span class="pill">Arlington, TX</span>
+            <span class="pill">Azure Databricks</span>
+            <span class="pill">Spark • Delta Lake</span>
+            <span class="pill">Airflow • ETL/ELT</span>
+          </div>
+
+          <div class="heroCtas">
+            <a class="btn" href="#projects">View Projects</a>
+            <a class="btn btnGhost" href="resume.pdf" target="_blank" rel="noopener">Download Resume</a>
+            <a class="btn btnGhost" href="https://www.linkedin.com/" target="_blank" rel="noopener">LinkedIn</a>
+            <a class="btn btnGhost" href="https://github.com/" target="_blank" rel="noopener">GitHub</a>
+          </div>
+
+          <p class="micro">
+            Tip: Upload your resume as <code>resume.pdf</code> in the same repo to enable the button.
+          </p>
+        </div>
+
+        <div class="heroRight">
+          <div class="card glass">
+            <h2 class="cardTitle">What I deliver</h2>
+            <ul class="checklist">
+              <li><span class="check">✓</span> SAS → Python/PySpark modernization</li>
+              <li><span class="check">✓</span> Databricks ETL/ELT pipelines on ADLS Gen2</li>
+              <li><span class="check">✓</span> Delta Lake + governance (Unity Catalog / Hive Metastore)</li>
+              <li><span class="check">✓</span> Performance tuning for large-scale jobs</li>
+              <li><span class="check">✓</span> Consulting delivery: requirements → build → validation</li>
+            </ul>
+          </div>
+
+          <div class="stats">
+            <div class="stat">
+              <div class="statNum">4+</div>
+              <div class="statLabel">Years</div>
+            </div>
+            <div class="stat">
+              <div class="statNum">300+</div>
+              <div class="statLabel">SAS → Python</div>
+            </div>
+            <div class="stat">
+              <div class="statNum">80%</div>
+              <div class="statLabel">Runtime Gain</div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </header>
+
+  <main>
+    <section id="projects" class="section">
+      <div class="container">
+        <div class="sectionHead">
+          <h2>Projects</h2>
+          <p>Focused, recruiter-friendly case studies. Replace links with your real repos.</p>
+        </div>
+
+        <div class="grid3">
+          <article class="card">
+            <div class="cardTop">
+              <h3>Databricks ETL Migration (Case Study)</h3>
+              <div class="tags">
+                <span class="tag">Azure Databricks</span>
+                <span class="tag">PySpark</span>
+                <span class="tag">Delta Lake</span>
+              </div>
+            </div>
+            <p>
+              Enterprise migration blueprint: ingestion, transformations, schema evolution, validation strategy,
+              and operationalization via Jobs/Workflows.
+            </p>
+            <ul class="bullets">
+              <li>Modernized legacy workflows into Spark-native transformations</li>
+              <li>Applied governance patterns using catalog + schema controls</li>
+              <li>Designed for reliability, incremental loads, and auditability</li>
+            </ul>
+            <div class="cardActions">
+              <a class="link" href="https://github.com/" target="_blank" rel="noopener">GitHub Repo</a>
+              <a class="link" href="#" target="_blank" rel="noopener">Architecture (PDF)</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="cardTop">
+              <h3>AroundMe – Agentic AI Local Discovery</h3>
+              <div class="tags">
+                <span class="tag">FastAPI</span>
+                <span class="tag">Google Places</span>
+                <span class="tag">Ranking</span>
+              </div>
+            </div>
+            <p>
+              Production-style API integrating multiple providers with ranking and semantic relevance.
+            </p>
+            <ul class="bullets">
+              <li>Built scalable backend endpoints with structured responses</li>
+              <li>Implemented semantic ranking using DistilBERT embeddings</li>
+              <li>Designed dedupe + relevance logic for better recommendations</li>
+            </ul>
+            <div class="cardActions">
+              <a class="link" href="https://github.com/" target="_blank" rel="noopener">GitHub Repo</a>
+              <a class="link" href="#" target="_blank" rel="noopener">Live Demo</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <div class="cardTop">
+              <h3>ML Project – Predictive Modeling</h3>
+              <div class="tags">
+                <span class="tag">Python</span>
+                <span class="tag">scikit-learn</span>
+                <span class="tag">Evaluation</span>
+              </div>
+            </div>
+            <p>
+              Clean, interpretable ML pipeline focused on feature engineering and model evaluation.
+            </p>
+            <ul class="bullets">
+              <li>Built end-to-end training + validation workflow</li>
+              <li>Tracked performance with metrics and error analysis</li>
+              <li>Documented reproducible experiments and results</li>
+            </ul>
+            <div class="cardActions">
+              <a class="link" href="https://github.com/" target="_blank" rel="noopener">GitHub Repo</a>
+              <a class="link" href="#" target="_blank" rel="noopener">Report</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="section alt">
+      <div class="container">
+        <div class="sectionHead">
+          <h2>Experience Highlights</h2>
+          <p>Senior-consultant framing: outcome, scale, and platform ownership.</p>
+        </div>
+
+        <div class="timeline">
+          <div class="tItem">
+            <div class="tLeft">
+              <div class="tRole">Senior Data Engineer / Analytics Consultant</div>
+              <div class="tOrg">Tata Consultancy Services (TCS)</div>
+              <div class="tMeta">Feb 2020 – Jan 2024</div>
+            </div>
+            <div class="tRight">
+              <ul class="bullets">
+                <li>Migrated 300+ SAS programs to Python/PySpark with validation and parity checks</li>
+                <li>Built Databricks ETL/ELT pipelines supporting billion-row analytics workloads</li>
+                <li>Improved runtime by ~80% via parallelization and pipeline optimization</li>
+                <li>Integrated ADLS Gen2 with Databricks governance patterns (catalog/metastore)</li>
+                <li>Consulting delivery across stakeholders: requirements → design → build → release</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="skills" class="section">
+      <div class="container">
+        <div class="sectionHead">
+          <h2>Core Skills</h2>
+          <p>Databricks-first positioning with supporting skills clearly separated.</p>
+        </div>
+
+        <div class="grid2">
+          <div class="card">
+            <h3>Data Engineering</h3>
+            <p class="skillLine">
+              Azure Databricks, Spark, PySpark, Delta Lake, Unity Catalog / Hive Metastore, ADLS Gen2, ETL/ELT, Data Modeling
+            </p>
+          </div>
+
+          <div class="card">
+            <h3>Cloud & Orchestration</h3>
+            <p class="skillLine">
+              Azure, AWS (EC2, S3), Databricks Jobs/Workflows, Apache Airflow, Docker, Git/GitHub
+            </p>
+          </div>
+
+          <div class="card">
+            <h3>Languages & Databases</h3>
+            <p class="skillLine">
+              Python, SQL, PySpark SQL, SAS; PostgreSQL, MySQL, Oracle, MongoDB
+            </p>
+          </div>
+
+          <div class="card">
+            <h3>ML + Web (Supporting)</h3>
+            <p class="skillLine">
+              Feature Engineering, Hyperparameter Tuning, Regression, Classification; scikit-learn, TensorFlow, PyTorch; Node.js, React, HTML, CSS
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section alt">
+      <div class="container">
+        <div class="sectionHead">
+          <h2>Contact</h2>
+          <p>Make it easy for recruiters to reach you.</p>
+        </div>
+
+        <div class="contactCard">
+          <div>
+            <div class="contactLabel">Email</div>
+            <a class="contactLink" href="mailto:akhileshgopisetty31@gmail.com">akhileshgopisetty31@gmail.com</a>
+          </div>
+          <div>
+            <div class="contactLabel">LinkedIn</div>
+            <a class="contactLink" href="https://www.linkedin.com/" target="_blank" rel="noopener">Open LinkedIn</a>
+          </div>
+          <div>
+            <div class="contactLabel">GitHub</div>
+            <a class="contactLink" href="https://github.com/" target="_blank" rel="noopener">Open GitHub</a>
+          </div>
+          <div>
+            <div class="contactLabel">Location</div>
+            <div class="contactText">Arlington, Texas</div>
+          </div>
+        </div>
+
+        <footer class="footer">
+          <span>© <span id="year"></span> Akhilesh Kumar Gopisetty</span>
+          <span class="footerSep">•</span>
+          <span>Built with HTML & CSS</span>
+        </footer>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
