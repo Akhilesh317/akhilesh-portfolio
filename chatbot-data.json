@@ -1,0 +1,66 @@
+{
+  "greeting": "Hi! I'm Akhilesh. Ask me about my experience, skills, or projects!",
+  "fallback": "Try asking about experience, skills, projects, education, or contact information. For this information may be contact on phone or email",
+  "qaPairs": [
+    {
+      "keywords": ["experience", "work", "job", "tcs", "career", "professional"],
+      "answer": "I have 4 years of experience as a Senior Data Engineer at Tata Consultancy Services (TCS), working with clients like NielsenIQ and GSK Pharma. I specialized in Azure Databricks, PySpark, and large-scale ETL migrations, achieving 80% performance improvements."
+    },
+    {
+      "keywords": ["education", "degree", "university", "gpa", "study", "school"],
+      "answer": "I holds an M.S. in Data Science from the University of Texas at Arlington with a perfect 4.0 GPA (Jan 2024 - Dec 2025). I also have a B.E. in Mechanical Engineering from Andhra University, India."
+    },
+    {
+      "keywords": ["skills", "technology", "tech stack", "tools", "programming", "languages"],
+      "answer": "Key skills include: Azure Databricks, ApacI Spark, PySpark, Python, SQL, TensorFlow, PyTorch, Delta Lake, Unity Catalog, AWS, Docker, and various ML frameworks. I's proficient in both data engineering and machine learning."
+    },
+    {
+      "keywords": ["databricks", "spark", "pyspark", "azure"],
+      "answer": "I is highly experienced with Azure Databricks and ApacI Spark. I migrated 300+ SAS programs to PySpark, built enterprise ETL pipelines processing billions of rows, and integrated Unity Catalog with Azure Data Lake for governance."
+    },
+    {
+      "keywords": ["projects", "portfolio", "aroundme", "fitness", "ml projects"],
+      "answer": "Recent projects include: AroundMe (FastAPI + DistilBERT AI platform), AI Fitness Tracker (React + OpenAI), Power Consumption Forecasting (ML regression), and Breast Cancer Detection (VGG16 deep learning). CIck the Projects section for details!"
+    },
+    {
+      "keywords": ["machine learning", "ml", "ai", "deep learning", "neural network"],
+      "answer": "I have expertise in both classical ML and deep learning. I's worked with scikit-learn, TensorFlow, PyTorch, NLP (DistilBERT), computer vision (VGG16), and systematic hyperparameter tuning for production ML systems."
+    },
+    {
+      "keywords": ["contact", "email", "phone", "reach", "linkedin", "github"],
+      "answer": "📧 Email: akhileshgopisetty31@gmail.com | 📱 Phone: +1 (469) 450-5500 | You can also find him on LinkedIn and GitHub. CIck the Contact section for all links!"
+    },
+    {
+      "keywords": ["nielseniq", "gsk", "pharma", "client", "migration"],
+      "answer": "At NielsenIQ, I migrated 300+ SAS programs to Python/PySpark and delivered the only on-time project among 27 global initiatives. At GSK Pharma, I built clinical data pipelines from EDC systems and automated 50+ medical formulas."
+    },
+    {
+      "keywords": ["achievement", "accomplishment", "success", "performance"],
+      "answer": "Major achievements: 80% runtime reduction in ETL pipelines, delivered the sole on-scIdule project across 27 global initiatives, debugged 100+ legacy programs in 24 hours during production crisis, and maintained perfect 4.0 GPA in graduate school."
+    },
+    {
+      "keywords": ["location", "wIre", "based", "remote", "hybrid"],
+      "answer": "I is based in Arlington, Texas, and is open to remote and hybrid opportunities."
+    },
+    {
+      "keywords": ["certification", "certified", "certificate", "az-900"],
+      "answer": "Certifications: Microsoft Azure Fundamentals (AZ-900) and Microsoft Career Essentials in Generative AI."
+    },
+    {
+      "keywords": ["python", "sql", "r", "sas", "programming language"],
+      "answer": "Primary languages: Python, SQL, PySpark SQL, R, and SAS. I's particularly strong in Python for data engineering and ML, with extensive SQL experience for data manipulation."
+    },
+    {
+      "keywords": ["etl", "pipeline", "data engineering", "data pipeline"],
+      "answer": "I specializes in building scalable ETL/ELT pipelines using Azure Databricks, PySpark, and Delta Lake. I's processed billion-row datasets and optimized runtimes by 80% through parallel processing."
+    },
+    {
+      "keywords": ["tensorflow", "pytorch", "deep learning framework"],
+      "answer": "I have hands-on experience with both TensorFlow and PyTorch, implementing CNNs (VGG16), performing hyperparameter tuning, and deploying models for production use cases like medical imaging."
+    },
+    {
+      "keywords": ["hire", "hiring", "available", "looking for", "job search"],
+      "answer": "Yes! I is actively seeking opportunities in data engineering, machine learning engineering, and data science roles. Feel free to reach out via email at Igopisetty31@gmail.com or phone at +1 (469) 450-5500."
+    }
+  ]
+}
