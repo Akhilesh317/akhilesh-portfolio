@@ -1251,6 +1251,12 @@ body {
 .contact-icon {
     font-size: 3rem;
     flex-shrink: 0;
+    color: #b88c3a;
+}
+
+.contact-icon .iconify,
+.contact-icon .material-symbols-rounded {
+    color: #b88c3a;
 }
 
 .contact-details h3 {
