@@ -9,8 +9,21 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;600;700&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:wght@400;500;600&display=swap" rel="stylesheet">
+    <script src="https://code.iconify.design/3/3.1.1/iconify.min.js"></script>
 </head>
 <body>
+    <!-- Loading Screen -->
+    <div id="site-loader" class="site-loader" aria-live="polite" aria-label="Loading">
+        <div class="loader-content">
+            <p class="loader-title">Hi, I’m Akhilesh Kumar Gopisetty — I build data platforms that run faster, smarter, and at scale</p>
+            <div class="loader" aria-hidden="true"></div>
+            <p class="loader-skill" id="loader-skill">
+                <span class="loader-skill-icon material-symbols-rounded" aria-hidden="true">hub</span>
+                <span class="loader-skill-text">Cloud-Scale Data Platforms</span>
+            </p>
+        </div>
+    </div>
     <!-- Navigation -->
     <nav class="nav">
         <div class="nav-container">
@@ -42,13 +55,14 @@
                 <span class="highlight">cloud-scale data platforms with Databricks</span>
             </h1>
             <p class="hero-subtitle">
-                M.S. Data Science graduate with 6 years of enterprise experience architecting 
-                scalable ML pipelines, optimizing billion-row ETL workflows, and shipping 
-                production AI solutions across Azure, Databricks, and cloud platforms.
+                Senior Data Engineer with 4 years of Fortune 500 experience modernizing legacy 
+                data pipelines into Azure Databricks and Spark, delivering 80% runtime gains and 
+                production-ready AI-enabled platforms.
             </p>
             <div class="hero-cta">
                 <a href="#projects" class="btn btn-primary">View Projects</a>
                 <a href="#contact" class="btn btn-secondary">Get in Touch</a>
+                <a href="files/resume.pdf" class="btn btn-secondary" target="_blank" rel="noopener">Download Resume</a>
             </div>
             <div class="hero-stats">
                 <div class="stat-item">
@@ -73,27 +87,10 @@
             </div>
         </div>
         
-        <!-- Image Slideshow -->
+        <!-- Profile Photo -->
         <div class="hero-slideshow">
             <div class="slideshow-container">
-                <div class="slide active">
-                    <img src="files/image1.png" alt="Akhilesh Kumar Gopisetty - Image 1">
-                </div>
-                <div class="slide">
-                    <img src="files/image2.png" alt="Akhilesh Kumar Gopisetty - Image 2">
-                </div>
-                <div class="slide">
-                    <img src="files/image3.png" alt="Akhilesh Kumar Gopisetty - Image 3">
-                </div>
-                <div class="slide">
-                    <img src="files/image4.png" alt="Akhilesh Kumar Gopisetty - Image 4">
-                </div>
-            </div>
-            <div class="slideshow-indicators">
-                <span class="indicator active" data-slide="0"></span>
-                <span class="indicator" data-slide="1"></span>
-                <span class="indicator" data-slide="2"></span>
-                <span class="indicator" data-slide="3"></span>
+                <img class="sketch-photo hero-portrait" src="files/image1-sketch.png" alt="Akhilesh Kumar Gopisetty">
             </div>
         </div>
     </div>
@@ -115,17 +112,13 @@
                     </p>
                     <p>
                         My experience spans the full spectrum of modern data engineering—from designing 
-                        high-throughput ETL pipelines processing billions of records in Azure Databricks, 
-                        to deploying deep learning models with TensorFlow and PyTorch, to building 
-                        production-grade APIs that integrate multiple data sources with intelligent 
-                        ranking algorithms.
+                        high-throughput ETL pipelines in Azure Databricks and Spark, to building ACID-compliant 
+                        Delta Lake warehouses, to delivering AI-enabled APIs and analytics systems.
                     </p>
                     <p>
-                        At Tata Consultancy Services, I led critical infrastructure migrations for global 
-                        clients including NielsenIQ and GSK Pharma, achieving 80% runtime improvements 
-                        and delivering the only on-time project across a 27-initiative portfolio. I thrive 
-                        in high-stakes environments where technical precision and execution discipline 
-                        directly impact business outcomes.
+                        At Tata Consultancy Services, I led critical migrations for NielsenIQ and GSK Pharma, 
+                        re-architecting SAS/Oracle workflows into Databricks/PySpark, orchestrating 30+ task 
+                        pipelines in Airflow, and delivering 100% on-time results across global initiatives.
                     </p>
                     <p>
                         Currently, I'm focused on the intersection of classical ML and modern AI—building 
@@ -174,7 +167,7 @@
                         <div class="experience-card">
                             <div class="experience-header">
                                 <div>
-                                    <h3 class="experience-title">Senior Data Engineer</h3>
+                                    <h3 class="experience-title">Data Engineer</h3>
                                     <p class="experience-company">Tata Consultancy Services</p>
                                 </div>
                                 <span class="experience-period">Feb 2020 – Jan 2024</span>
@@ -184,28 +177,27 @@
                             <div class="project-subsection">
                                 <h4 class="project-client">NielsenIQ — Enterprise Analytics Migration</h4>
                                 <div class="experience-tags">
-                                    <span class="tag">Azure Databricks</span>
-                                    <span class="tag">PySpark</span>
-                                    <span class="tag">Python</span>
-                                    <span class="tag">ETL Pipelines</span>
+                                    <span class="tag" data-label="Azure Databricks" title="Azure Databricks" aria-label="Azure Databricks"><span class="iconify" data-icon="simple-icons:databricks"></span></span>
+                                    <span class="tag" data-label="PySpark" title="PySpark" aria-label="PySpark"><span class="material-symbols-rounded">functions</span></span>
+                                    <span class="tag" data-label="Python" title="Python" aria-label="Python"><span class="iconify" data-icon="devicon:python"></span></span>
+                                    <span class="tag" data-label="ETL Pipelines" title="ETL Pipelines" aria-label="ETL Pipelines"><span class="material-symbols-rounded">timeline</span></span>
                                 </div>
                                 <ul class="experience-achievements">
                                     <li>
-                                        <strong>Spearheaded migration of 300+ SAS programs</strong> to Python and PySpark, 
-                                        establishing validation frameworks that ensured functional accuracy across 
-                                        billion-row datasets
+                                        <strong>Migrated 300+ SAS programs</strong> to Python and PySpark, introducing 
+                                        validation frameworks that preserved functional parity across billion-row datasets
                                     </li>
                                     <li>
-                                        <strong>Engineered high-performance ETL pipelines</strong> in Azure Databricks 
-                                        processing enterprise-scale analytics workloads with optimized Delta Lake implementations
+                                        <strong>Engineered high-performance ETL pipelines</strong> in Azure Databricks, 
+                                        optimizing Spark partitioning and Delta Lake performance for global reporting
                                     </li>
                                     <li>
-                                        <strong>Achieved 80% runtime reduction</strong> by implementing parallel processing 
-                                        architectures on Linux environments, dramatically accelerating data transformation workflows
+                                        <strong>Achieved 80% runtime reduction</strong> by implementing multiprocessing and 
+                                        vectorized transformations to replace legacy row-wise logic
                                     </li>
                                     <li>
-                                        <strong>Delivered the sole on-schedule project</strong> among 27 concurrent global 
-                                        initiatives through systematic execution planning and proactive stakeholder management
+                                        <strong>Delivered the only on-time project</strong> among 27 global initiatives 
+                                        through strict sprint planning and proactive stakeholder alignment
                                     </li>
                                 </ul>
                             </div>
@@ -214,27 +206,27 @@
                             <div class="project-subsection">
                                 <h4 class="project-client">GSK Pharma — Clinical Data Infrastructure</h4>
                                 <div class="experience-tags">
-                                    <span class="tag">Medical Data</span>
-                                    <span class="tag">Unity Catalog</span>
-                                    <span class="tag">Data Lake Gen2</span>
-                                    <span class="tag">Schema Evolution</span>
+                                    <span class="tag" data-label="Medical Data" title="Medical Data" aria-label="Medical Data"><span class="material-symbols-rounded">medical_services</span></span>
+                                    <span class="tag" data-label="Unity Catalog" title="Unity Catalog" aria-label="Unity Catalog"><span class="material-symbols-rounded">account_tree</span></span>
+                                    <span class="tag" data-label="Data Lake Gen2" title="Data Lake Gen2" aria-label="Data Lake Gen2"><span class="iconify" data-icon="simple-icons:microsoftazure"></span></span>
+                                    <span class="tag" data-label="Schema Evolution" title="Schema Evolution" aria-label="Schema Evolution"><span class="material-symbols-rounded">schema</span></span>
                                 </div>
                                 <ul class="experience-achievements">
                                     <li>
-                                        <strong>Built production data pipelines</strong> for clinical datasets from EDC 
-                                        systems (Inform, Veeva Vault), handling complex semi-structured medical data
+                                        <strong>Built production data pipelines</strong> for EDC systems (Inform, Veeva), 
+                                        standardizing semi-structured clinical data for downstream analytics
                                     </li>
                                     <li>
-                                        <strong>Architected Databricks-Azure Data Lake integration</strong> using Unity 
-                                        Catalog and Hive Metastore for centralized governance and metadata management
+                                        <strong>Implemented Unity Catalog governance</strong> for Databricks and ADLS Gen2, 
+                                        centralizing access control and metadata management
                                     </li>
                                     <li>
-                                        <strong>Automated schema extraction and medical formula application</strong> across 
-                                        50+ clinical calculations, streamlining analytics workflows for regulatory reporting
+                                        <strong>Applied shift-left data quality rules</strong> and automated schema extraction 
+                                        across 50+ clinical calculations for audit-ready reporting
                                     </li>
                                     <li>
-                                        <strong>Prevented critical production failures</strong> by debugging 100+ legacy 
-                                        SAS programs within 24-hour emergency window during pipeline crisis
+                                        <strong>Stabilized 100+ workflows</strong> by restoring alerting and implementing 
+                                        monthly smoke tests for notification reliability
                                     </li>
                                 </ul>
                             </div>
@@ -287,11 +279,11 @@
                         natural language understanding of user preferences.
                     </p>
                     <div class="project-tech">
-                        <span class="tech-tag">FastAPI</span>
-                        <span class="tech-tag">DistilBERT</span>
-                        <span class="tech-tag">NLP</span>
-                        <span class="tech-tag">Google Places API</span>
-                        <span class="tech-tag">Geospatial</span>
+                        <span class="tech-tag" data-label="FastAPI" title="FastAPI" aria-label="FastAPI"><span class="iconify" data-icon="simple-icons:fastapi"></span></span>
+                        <span class="tech-tag" data-label="DistilBERT" title="DistilBERT" aria-label="DistilBERT"><span class="material-symbols-rounded">psychology</span></span>
+                        <span class="tech-tag" data-label="LLM Function Calling" title="LLM Function Calling" aria-label="LLM Function Calling"><span class="material-symbols-rounded">call_split</span></span>
+                        <span class="tech-tag" data-label="Google Places API" title="Google Places API" aria-label="Google Places API"><span class="material-symbols-rounded">place</span></span>
+                        <span class="tech-tag" data-label="PostgreSQL" title="PostgreSQL" aria-label="PostgreSQL"><span class="iconify" data-icon="simple-icons:postgresql"></span></span>
                     </div>
                     <div class="project-meta">
                         <span class="project-date">Aug 2025 – Dec 2025</span>
@@ -309,11 +301,11 @@
                         web technologies.
                     </p>
                     <div class="project-tech">
-                        <span class="tech-tag">React</span>
-                        <span class="tech-tag">Node.js</span>
-                        <span class="tech-tag">Prisma</span>
-                        <span class="tech-tag">MySQL</span>
-                        <span class="tech-tag">OpenAI API</span>
+                        <span class="tech-tag" data-label="React" title="React" aria-label="React"><span class="iconify" data-icon="devicon:react"></span></span>
+                        <span class="tech-tag" data-label="Node.js" title="Node.js" aria-label="Node.js"><span class="iconify" data-icon="devicon:nodejs"></span></span>
+                        <span class="tech-tag" data-label="Prisma" title="Prisma" aria-label="Prisma"><span class="iconify" data-icon="simple-icons:prisma"></span></span>
+                        <span class="tech-tag" data-label="MySQL" title="MySQL" aria-label="MySQL"><span class="iconify" data-icon="simple-icons:mysql"></span></span>
+                        <span class="tech-tag" data-label="AWS" title="AWS" aria-label="AWS"><span class="iconify" data-icon="simple-icons:amazonwebservices"></span></span>
                     </div>
                     <div class="project-meta">
                         <span class="project-date">Jan 2025 – Apr 2025</span>
@@ -331,10 +323,10 @@
                         performance analysis.
                     </p>
                     <div class="project-tech">
-                        <span class="tech-tag">scikit-learn</span>
-                        <span class="tech-tag">Feature Engineering</span>
-                        <span class="tech-tag">Regression</span>
-                        <span class="tech-tag">Model Evaluation</span>
+                        <span class="tech-tag" data-label="scikit-learn" title="scikit-learn" aria-label="scikit-learn"><span class="iconify" data-icon="devicon:scikitlearn"></span></span>
+                        <span class="tech-tag" data-label="Feature Engineering" title="Feature Engineering" aria-label="Feature Engineering"><span class="material-symbols-rounded">tune</span></span>
+                        <span class="tech-tag" data-label="Regression Modeling" title="Regression Modeling" aria-label="Regression Modeling"><span class="material-symbols-rounded">show_chart</span></span>
+                        <span class="tech-tag" data-label="Model Evaluation" title="Model Evaluation" aria-label="Model Evaluation"><span class="material-symbols-rounded">fact_check</span></span>
                     </div>
                     <div class="project-meta">
                         <span class="project-date">Aug 2024 – Dec 2024</span>
@@ -352,11 +344,11 @@
                         generalization performance and clinical relevance.
                     </p>
                     <div class="project-tech">
-                        <span class="tech-tag">TensorFlow</span>
-                        <span class="tech-tag">PyTorch</span>
-                        <span class="tech-tag">VGG16</span>
-                        <span class="tech-tag">Computer Vision</span>
-                        <span class="tech-tag">Medical Imaging</span>
+                        <span class="tech-tag" data-label="TensorFlow" title="TensorFlow" aria-label="TensorFlow"><span class="iconify" data-icon="simple-icons:tensorflow"></span></span>
+                        <span class="tech-tag" data-label="PyTorch" title="PyTorch" aria-label="PyTorch"><span class="iconify" data-icon="devicon:pytorch"></span></span>
+                        <span class="tech-tag" data-label="VGG16" title="VGG16" aria-label="VGG16"><span class="material-symbols-rounded">layers</span></span>
+                        <span class="tech-tag" data-label="Computer Vision" title="Computer Vision" aria-label="Computer Vision"><span class="material-symbols-rounded">visibility</span></span>
+                        <span class="tech-tag" data-label="Medical Imaging" title="Medical Imaging" aria-label="Medical Imaging"><span class="material-symbols-rounded">medical_services</span></span>
                     </div>
                     <div class="project-meta">
                         <span class="project-date">Aug 2024 – Dec 2024</span>
@@ -382,15 +374,15 @@
                         Data Engineering
                     </h3>
                     <div class="skill-tags">
-                        <span class="skill-tag">Azure Databricks</span>
-                        <span class="skill-tag">Apache Spark</span>
-                        <span class="skill-tag">PySpark</span>
-                        <span class="skill-tag">Delta Lake</span>
-                        <span class="skill-tag">Unity Catalog</span>
-                        <span class="skill-tag">Azure Data Lake Gen2</span>
-                        <span class="skill-tag">ETL/ELT Pipelines</span>
-                        <span class="skill-tag">Data Modeling</span>
-                        <span class="skill-tag">Apache Airflow</span>
+                        <span class="skill-tag" data-label="Azure Databricks" title="Azure Databricks" aria-label="Azure Databricks"><span class="iconify" data-icon="simple-icons:databricks"></span>Azure Databricks</span>
+                        <span class="skill-tag" data-label="Apache Spark" title="Apache Spark" aria-label="Apache Spark"><span class="iconify" data-icon="simple-icons:apachespark"></span>Apache Spark</span>
+                        <span class="skill-tag" data-label="PySpark" title="PySpark" aria-label="PySpark"><span class="material-symbols-rounded">functions</span>PySpark</span>
+                        <span class="skill-tag" data-label="Delta Lake" title="Delta Lake" aria-label="Delta Lake"><span class="material-symbols-rounded">water</span>Delta Lake</span>
+                        <span class="skill-tag" data-label="Unity Catalog" title="Unity Catalog" aria-label="Unity Catalog"><span class="material-symbols-rounded">account_tree</span>Unity Catalog</span>
+                        <span class="skill-tag" data-label="Azure Data Lake Gen2" title="Azure Data Lake Gen2" aria-label="Azure Data Lake Gen2"><span class="iconify" data-icon="simple-icons:microsoftazure"></span>Azure Data Lake Gen2</span>
+                        <span class="skill-tag" data-label="ETL/ELT Pipelines" title="ETL/ELT Pipelines" aria-label="ETL/ELT Pipelines"><span class="material-symbols-rounded">timeline</span>ETL/ELT Pipelines</span>
+                        <span class="skill-tag" data-label="Data Modeling" title="Data Modeling" aria-label="Data Modeling"><span class="material-symbols-rounded">schema</span>Data Modeling</span>
+                        <span class="skill-tag" data-label="Apache Airflow" title="Apache Airflow" aria-label="Apache Airflow"><span class="iconify" data-icon="simple-icons:apacheairflow"></span>Apache Airflow</span>
                     </div>
                 </div>
 
@@ -401,11 +393,11 @@
                         Programming
                     </h3>
                     <div class="skill-tags">
-                        <span class="skill-tag">Python</span>
-                        <span class="skill-tag">SQL</span>
-                        <span class="skill-tag">PySpark SQL</span>
-                        <span class="skill-tag">R</span>
-                        <span class="skill-tag">SAS</span>
+                        <span class="skill-tag" data-label="Python" title="Python" aria-label="Python"><span class="iconify" data-icon="devicon:python"></span>Python</span>
+                        <span class="skill-tag" data-label="SQL" title="SQL" aria-label="SQL"><span class="material-symbols-rounded">database</span>SQL</span>
+                        <span class="skill-tag" data-label="PySpark SQL" title="PySpark SQL" aria-label="PySpark SQL"><span class="material-symbols-rounded">data_object</span>PySpark SQL</span>
+                        <span class="skill-tag" data-label="R" title="R" aria-label="R"><span class="iconify" data-icon="simple-icons:r"></span>R</span>
+                        <span class="skill-tag" data-label="SAS" title="SAS" aria-label="SAS"><span class="material-symbols-rounded">query_stats</span>SAS</span>
                     </div>
                 </div>
 
@@ -416,14 +408,14 @@
                         Machine Learning & AI
                     </h3>
                     <div class="skill-tags">
-                        <span class="skill-tag">scikit-learn</span>
-                        <span class="skill-tag">TensorFlow</span>
-                        <span class="skill-tag">PyTorch</span>
-                        <span class="skill-tag">Feature Engineering</span>
-                        <span class="skill-tag">Hyperparameter Tuning</span>
-                        <span class="skill-tag">NLP (DistilBERT)</span>
-                        <span class="skill-tag">Computer Vision</span>
-                        <span class="skill-tag">Model Optimization</span>
+                        <span class="skill-tag" data-label="scikit-learn" title="scikit-learn" aria-label="scikit-learn"><span class="iconify" data-icon="devicon:scikitlearn"></span>scikit-learn</span>
+                        <span class="skill-tag" data-label="TensorFlow" title="TensorFlow" aria-label="TensorFlow"><span class="iconify" data-icon="simple-icons:tensorflow"></span>TensorFlow</span>
+                        <span class="skill-tag" data-label="PyTorch" title="PyTorch" aria-label="PyTorch"><span class="iconify" data-icon="devicon:pytorch"></span>PyTorch</span>
+                        <span class="skill-tag" data-label="Feature Engineering" title="Feature Engineering" aria-label="Feature Engineering"><span class="material-symbols-rounded">tune</span>Feature Engineering</span>
+                        <span class="skill-tag" data-label="Hyperparameter Tuning" title="Hyperparameter Tuning" aria-label="Hyperparameter Tuning"><span class="material-symbols-rounded">settings_suggest</span>Hyperparameter Tuning</span>
+                        <span class="skill-tag" data-label="NLP (DistilBERT)" title="NLP (DistilBERT)" aria-label="NLP (DistilBERT)"><span class="material-symbols-rounded">chat</span>NLP (DistilBERT)</span>
+                        <span class="skill-tag" data-label="Computer Vision" title="Computer Vision" aria-label="Computer Vision"><span class="material-symbols-rounded">visibility</span>Computer Vision</span>
+                        <span class="skill-tag" data-label="Model Optimization" title="Model Optimization" aria-label="Model Optimization"><span class="material-symbols-rounded">insights</span>Model Optimization</span>
                     </div>
                 </div>
 
@@ -434,11 +426,11 @@
                         Cloud & Infrastructure
                     </h3>
                     <div class="skill-tags">
-                        <span class="skill-tag">Microsoft Azure</span>
-                        <span class="skill-tag">AWS (EC2, S3, VPC)</span>
-                        <span class="skill-tag">Docker</span>
-                        <span class="skill-tag">Git & GitHub</span>
-                        <span class="skill-tag">Databricks Workflows</span>
+                        <span class="skill-tag" data-label="Microsoft Azure" title="Microsoft Azure" aria-label="Microsoft Azure"><span class="iconify" data-icon="simple-icons:microsoftazure"></span>Microsoft Azure</span>
+                        <span class="skill-tag" data-label="AWS (EC2, S3, VPC)" title="AWS (EC2, S3, VPC)" aria-label="AWS (EC2, S3, VPC)"><span class="iconify" data-icon="simple-icons:amazonwebservices"></span>AWS (EC2, S3, VPC)</span>
+                        <span class="skill-tag" data-label="Docker" title="Docker" aria-label="Docker"><span class="iconify" data-icon="simple-icons:docker"></span>Docker</span>
+                        <span class="skill-tag" data-label="Git & GitHub" title="Git & GitHub" aria-label="Git & GitHub"><span class="iconify" data-icon="simple-icons:github"></span>Git & GitHub</span>
+                        <span class="skill-tag" data-label="Databricks Workflows" title="Databricks Workflows" aria-label="Databricks Workflows"><span class="iconify" data-icon="simple-icons:databricks"></span>Databricks Workflows</span>
                     </div>
                 </div>
 
@@ -449,10 +441,10 @@
                         Databases
                     </h3>
                     <div class="skill-tags">
-                        <span class="skill-tag">PostgreSQL</span>
-                        <span class="skill-tag">MySQL</span>
-                        <span class="skill-tag">Oracle</span>
-                        <span class="skill-tag">MongoDB</span>
+                        <span class="skill-tag" data-label="PostgreSQL" title="PostgreSQL" aria-label="PostgreSQL"><span class="iconify" data-icon="simple-icons:postgresql"></span>PostgreSQL</span>
+                        <span class="skill-tag" data-label="MySQL" title="MySQL" aria-label="MySQL"><span class="iconify" data-icon="simple-icons:mysql"></span>MySQL</span>
+                        <span class="skill-tag" data-label="Oracle" title="Oracle" aria-label="Oracle"><span class="iconify" data-icon="simple-icons:oracle"></span>Oracle</span>
+                        <span class="skill-tag" data-label="MongoDB" title="MongoDB" aria-label="MongoDB"><span class="iconify" data-icon="simple-icons:mongodb"></span>MongoDB</span>
                     </div>
                 </div>
 
@@ -463,11 +455,11 @@
                         Web Development
                     </h3>
                     <div class="skill-tags">
-                        <span class="skill-tag">FastAPI</span>
-                        <span class="skill-tag">Node.js</span>
-                        <span class="skill-tag">React.js</span>
-                        <span class="skill-tag">Prisma ORM</span>
-                        <span class="skill-tag">RESTful APIs</span>
+                        <span class="skill-tag" data-label="FastAPI" title="FastAPI" aria-label="FastAPI"><span class="iconify" data-icon="simple-icons:fastapi"></span>FastAPI</span>
+                        <span class="skill-tag" data-label="Node.js" title="Node.js" aria-label="Node.js"><span class="iconify" data-icon="devicon:nodejs"></span>Node.js</span>
+                        <span class="skill-tag" data-label="React.js" title="React.js" aria-label="React.js"><span class="iconify" data-icon="devicon:react"></span>React.js</span>
+                        <span class="skill-tag" data-label="Prisma ORM" title="Prisma ORM" aria-label="Prisma ORM"><span class="iconify" data-icon="simple-icons:prisma"></span>Prisma ORM</span>
+                        <span class="skill-tag" data-label="RESTful APIs" title="RESTful APIs" aria-label="RESTful APIs"><span class="material-symbols-rounded">api</span>RESTful APIs</span>
                     </div>
                 </div>
             </div>
@@ -566,7 +558,7 @@
         <div class="chatbot-header">
             <div class="chatbot-header-content">
                 <div class="chatbot-avatar">
-                    <img src="files/image1.png" alt="Akhilesh" style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;">
+                    <img class="sketch-photo" src="files/image1.png" alt="Akhilesh">
                 </div>
                 <div class="chatbot-title">
                     <h3>Akhilesh</h3>
@@ -585,7 +577,7 @@
         
         <div id="typing-indicator" class="typing-indicator">
             <div class="message-avatar">
-                <img src="files/image1.png" alt="Akhilesh" style="width: 100%; height: 100%; object-fit: cover; border-radius: 50%;">
+                <img class="sketch-photo" src="files/image1.png" alt="Akhilesh">
             </div>
             <div class="typing-dots">
                 <span class="typing-dot"></span>
@@ -662,54 +654,61 @@
             observer.observe(el);
         });
 
-        // Image Slideshow Functionality
-        let currentSlide = 0;
-        const slides = document.querySelectorAll('.slide');
-        const indicators = document.querySelectorAll('.indicator');
-        const slideInterval = 4000; // 4 seconds
-
-        function showSlide(index) {
-            if (index >= slides.length) {
-                currentSlide = 0;
-            } else if (index < 0) {
-                currentSlide = slides.length - 1;
-            } else {
-                currentSlide = index;
-            }
-            
-            slides.forEach(slide => slide.classList.remove('active'));
-            indicators.forEach(indicator => indicator.classList.remove('active'));
-            
-            slides[currentSlide].classList.add('active');
-            indicators[currentSlide].classList.add('active');
-        }
-
-        function nextSlide() {
-            showSlide(currentSlide + 1);
-        }
-
-        let slideshowTimer = setInterval(nextSlide, slideInterval);
-
-        indicators.forEach((indicator, index) => {
-            indicator.addEventListener('click', () => {
-                showSlide(index);
-                clearInterval(slideshowTimer);
-                slideshowTimer = setInterval(nextSlide, slideInterval);
+        // Section reveal on scroll
+        const sectionObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('section-visible');
+                }
             });
+        }, {
+            threshold: 0.2
         });
 
-        const slideshowContainer = document.querySelector('.slideshow-container');
-        if (slideshowContainer) {
-            slideshowContainer.addEventListener('mouseenter', () => {
-                clearInterval(slideshowTimer);
-            });
-            
-            slideshowContainer.addEventListener('mouseleave', () => {
-                slideshowTimer = setInterval(nextSlide, slideInterval);
-            });
-        }
+        document.querySelectorAll('section.section').forEach(section => {
+            sectionObserver.observe(section);
+        });
+
+        // Loading Screen (6 seconds)
+        const loader = document.getElementById('site-loader');
+        const loaderSkill = document.getElementById('loader-skill');
+        const skillIcon = document.querySelector('.loader-skill-icon');
+        const skillText = document.querySelector('.loader-skill-text');
+        const skillPhrases = [
+            { icon: 'hub', text: 'Cloud-Scale Data Platforms' },
+            { icon: 'bolt', text: 'Databricks & Spark Expertise' },
+            { icon: 'tune', text: 'Pipeline Performance Optimization' },
+            { icon: 'psychology', text: 'AI-Ready Data Foundations' },
+            { icon: 'policy', text: 'Governed Delta Lake Warehousing' }
+        ];
+
+        let skillIndex = 0;
+        const updateSkill = () => {
+            const current = skillPhrases[skillIndex];
+            if (skillIcon) {
+                skillIcon.textContent = current.icon;
+            }
+            if (skillText) {
+                skillText.textContent = current.text;
+            }
+        };
+
+        updateSkill();
+        const skillInterval = setInterval(() => {
+            skillIndex = (skillIndex + 1) % skillPhrases.length;
+            updateSkill();
+        }, 1200);
+
+        setTimeout(() => {
+            clearInterval(skillInterval);
+            if (loader) {
+                loader.classList.add('hide');
+            }
+        }, 10000);
+
     </script>
         <!-- Chatbot Script -->
     <script src="chatbot.js"></script>  <!-- ADD THIS LINE -->
 </body>
 </html>
+

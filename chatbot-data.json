@@ -1,77 +1,310 @@
 {
   "version": "2.0",
-  "greeting": "Hi, I’m Akhilesh. Ask me about my Databricks work, projects, skills, education, or how to contact me.",
-  "fallback": "I’m best at answering questions about my Databricks and Spark experience, data engineering work, projects, education, and professional background. Please try one of those topics.",
+  "greeting": "Hi, I\u2019m Akhilesh. Ask me about my Databricks work, projects, skills, education, or how to contact me.",
+  "fallback": "I\u2019m best at answering questions about my Databricks and Spark experience, data engineering work, projects, education, and professional background. Please try one of those topics.",
   "qaPairs": [
     {
       "id": "databricks_overview",
-      "keywords": ["databricks", "azure databricks", "spark", "pyspark", "delta", "delta lake", "unity catalog", "hive metastore", "adls", "adls gen2", "governance"],
-      "answer": "I have 4 years of industry experience building and migrating data pipelines using Azure Databricks, Apache Spark, and PySpark. I’ve migrated 300+ SAS functionalities to PySpark, built large-scale ETL/ELT pipelines over billion-row datasets, and integrated ADLS Gen2 with Hive Metastore / Unity Catalog for centralized governance and schema consistency."
+      "keywords": [
+        "databricks",
+        "azure databricks",
+        "spark",
+        "pyspark",
+        "delta",
+        "delta lake",
+        "unity catalog",
+        "hive metastore",
+        "adls",
+        "adls gen2",
+        "governance"
+      ],
+      "answer": "I have 4 years of industry experience building and migrating data pipelines using Azure Databricks, Apache Spark, and PySpark. I\u2019ve migrated 300+ SAS functionalities to PySpark, built large-scale ETL/ELT pipelines over billion-row datasets, and integrated ADLS Gen2 with Hive Metastore / Unity Catalog for centralized governance and schema consistency."
     },
     {
       "id": "experience_summary",
-      "keywords": ["experience", "work", "job", "career", "professional", "tcs", "tata consultancy services"],
-      "answer": "I worked at Tata Consultancy Services (Feb 2020–Jan 2024) in analytics and data engineering roles across large migrations and pipeline delivery. My focus was modernizing legacy workflows (SAS → Python/PySpark), building scalable Databricks pipelines, and improving runtime and reliability in production environments."
+      "keywords": [
+        "experience",
+        "work",
+        "job",
+        "career",
+        "professional",
+        "tcs",
+        "tata consultancy services"
+      ],
+      "answer": "I worked at Tata Consultancy Services (Feb 2020\u2013Jan 2024) in analytics and data engineering roles across large migrations and pipeline delivery. My focus was modernizing legacy workflows (SAS \u2192 Python/PySpark), building scalable Databricks pipelines, and improving runtime and reliability in production environments."
     },
     {
       "id": "clients_projects_tcs",
-      "keywords": ["client", "clients", "nielseniq", "nielsen", "gsk", "pharma", "migration", "sas", "legacy", "modernization"],
-      "answer": "At NielsenIQ, I migrated 300+ SAS functionalities into Python and delivered ETL/ELT pipelines in PySpark on Azure Databricks for downstream sales analytics across billion-row datasets—improving runtime efficiency by ~80% via parallel processing. At GSK Pharma, I performed ETL on medical data from EDC tools, migrated SAS pipelines into Databricks with semi-structured schemas, integrated ADLS Gen2 with Hive Metastore / Unity Catalog, automated schema extraction and 50+ medical formulas, and was recognized for debugging 100+ SAS files in a single day."
+      "keywords": [
+        "client",
+        "clients",
+        "nielseniq",
+        "nielsen",
+        "gsk",
+        "pharma",
+        "migration",
+        "sas",
+        "legacy",
+        "modernization"
+      ],
+      "answer": "At NielsenIQ, I migrated 300+ SAS functionalities into Python and delivered ETL/ELT pipelines in PySpark on Azure Databricks for downstream sales analytics across billion-row datasets\u2014improving runtime efficiency by ~80% via parallel processing. At GSK Pharma, I performed ETL on medical data from EDC tools, migrated SAS pipelines into Databricks with semi-structured schemas, integrated ADLS Gen2 with Hive Metastore / Unity Catalog, automated schema extraction and 50+ medical formulas, and was recognized for debugging 100+ SAS files in a single day."
     },
     {
       "id": "skills_core",
-      "keywords": ["skills", "technology", "tech stack", "tools", "stack", "programming", "languages", "frameworks"],
+      "keywords": [
+        "skills",
+        "technology",
+        "tech stack",
+        "tools",
+        "stack",
+        "programming",
+        "languages",
+        "frameworks"
+      ],
       "answer": "Core skills: Azure Databricks, Apache Spark, PySpark, Python, SQL, Delta Lake, Unity Catalog (Hive Metastore), ADLS Gen2, Databricks Jobs/Workflows, Apache Airflow, Docker, Git/GitHub, AWS and Azure. For ML: scikit-learn, TensorFlow, and PyTorch with feature engineering, model evaluation, and hyperparameter tuning."
     },
     {
       "id": "etl_data_engineering",
-      "keywords": ["etl", "elt", "pipeline", "pipelines", "data engineering", "data pipeline", "orchestration", "airflow", "workflows", "jobs"],
-      "answer": "I build scalable ETL/ELT pipelines using Azure Databricks (PySpark) and Delta Lake, and I operationalize them using Databricks Jobs/Workflows and Apache Airflow. I’ve worked with large datasets (including billion-row analytics workloads) and improved runtime and stability through optimization and parallel processing."
+      "keywords": [
+        "etl",
+        "elt",
+        "pipeline",
+        "pipelines",
+        "data engineering",
+        "data pipeline",
+        "orchestration",
+        "airflow",
+        "workflows",
+        "jobs"
+      ],
+      "answer": "I build scalable ETL/ELT pipelines using Azure Databricks (PySpark) and Delta Lake, and I operationalize them using Databricks Jobs/Workflows and Apache Airflow. I\u2019ve worked with large datasets (including billion-row analytics workloads) and improved runtime and stability through optimization and parallel processing."
     },
     {
       "id": "programming_databases",
-      "keywords": ["python", "sql", "pyspark sql", "r", "sas", "cql", "database", "databases", "postgresql", "mysql", "oracle", "mongodb"],
-      "answer": "Primary languages: Python, SQL, PySpark, R, SAS, and CQL. Databases/platforms I’ve worked with include MySQL, PostgreSQL, MongoDB, and Oracle, along with cloud services on Azure and AWS."
+      "keywords": [
+        "python",
+        "sql",
+        "pyspark sql",
+        "r",
+        "sas",
+        "cql",
+        "database",
+        "databases",
+        "postgresql",
+        "mysql",
+        "oracle",
+        "mongodb"
+      ],
+      "answer": "Primary languages: Python, SQL, PySpark, R, SAS, and CQL. Databases/platforms I\u2019ve worked with include MySQL, PostgreSQL, MongoDB, and Oracle, along with cloud services on Azure and AWS."
     },
     {
       "id": "projects_summary",
-      "keywords": ["projects", "portfolio", "aroundme", "fitness", "fitness tracker", "power consumption", "power prediction", "breast cancer", "vgg16", "academic projects"],
+      "keywords": [
+        "projects",
+        "portfolio",
+        "aroundme",
+        "fitness",
+        "fitness tracker",
+        "power consumption",
+        "power prediction",
+        "breast cancer",
+        "vgg16",
+        "academic projects"
+      ],
       "answer": "My projects include: AroundMe Agentic AI (FastAPI platform integrating Google Places & Yelp with ranking and semantic relevance using DistilBERT), a Fitness Tracker web app with AI-driven recommendations (React, Node.js, Prisma/MySQL, OpenAI), Power Consumption Prediction (Linear Regression), and Breast Cancer Detection using VGG16 (TensorFlow/PyTorch with systematic hyperparameter tuning)."
     },
     {
       "id": "ml_ai",
-      "keywords": ["machine learning", "ml", "ai", "deep learning", "neural network", "nlp", "distilbert", "computer vision", "cnn", "vgg16", "tensorflow", "pytorch", "scikit-learn"],
-      "answer": "I work across classical ML and deep learning. I’ve used scikit-learn for regression/classification and model evaluation, and TensorFlow/PyTorch for deep learning (including VGG16-based computer vision). I’ve also applied DistilBERT-based semantic analysis to improve ranking and relevance in a production-style API workflow."
+      "keywords": [
+        "machine learning",
+        "ml",
+        "ai",
+        "deep learning",
+        "neural network",
+        "nlp",
+        "distilbert",
+        "computer vision",
+        "cnn",
+        "vgg16",
+        "tensorflow",
+        "pytorch",
+        "scikit-learn"
+      ],
+      "answer": "I work across classical ML and deep learning. I\u2019ve used scikit-learn for regression/classification and model evaluation, and TensorFlow/PyTorch for deep learning (including VGG16-based computer vision). I\u2019ve also applied DistilBERT-based semantic analysis to improve ranking and relevance in a production-style API workflow."
     },
     {
       "id": "education",
-      "keywords": ["education", "degree", "university", "uta", "ut arlington", "masters", "ms", "gpa", "study", "school", "andhra university", "bachelor"],
-      "answer": "I’m pursuing an M.S. in Data Science at The University of Texas at Arlington (Jan 2024–Dec 2025) with a 4.0 GPA. I also completed a B.E. in Mechanical Engineering from Andhra University (Jul 2015–Apr 2019)."
+      "keywords": [
+        "education",
+        "degree",
+        "university",
+        "uta",
+        "ut arlington",
+        "masters",
+        "ms",
+        "gpa",
+        "study",
+        "school",
+        "andhra university",
+        "bachelor"
+      ],
+      "answer": "I\u2019m pursuing an M.S. in Data Science at The University of Texas at Arlington (Jan 2024\u2013Dec 2025) with a 4.0 GPA. I also completed a B.E. in Mechanical Engineering from Andhra University (Jul 2015\u2013Apr 2019)."
     },
     {
       "id": "certifications",
-      "keywords": ["certification", "certifications", "certified", "certificate", "az-900", "azure fundamentals", "generative ai", "microsoft"],
+      "keywords": [
+        "certification",
+        "certifications",
+        "certified",
+        "certificate",
+        "az-900",
+        "azure fundamentals",
+        "generative ai",
+        "microsoft"
+      ],
       "answer": "Certifications: Microsoft Azure Fundamentals (AZ-900) and Microsoft Career Essentials in Generative AI."
     },
     {
       "id": "achievements",
-      "keywords": ["achievement", "achievements", "accomplishment", "impact", "results", "performance", "runtime", "on-time", "debugged", "recognition"],
+      "keywords": [
+        "achievement",
+        "achievements",
+        "accomplishment",
+        "impact",
+        "results",
+        "performance",
+        "runtime",
+        "on-time",
+        "debugged",
+        "recognition"
+      ],
       "answer": "Key achievements include: ~80% runtime improvement in migration workloads, delivering the only on-time project among 27 in a global portfolio, and debugging 100+ SAS scripts within 24 hours to prevent pipeline failures."
     },
     {
       "id": "location",
-      "keywords": ["location", "based", "where", "arlington", "texas", "tx", "remote", "hybrid", "onsite"],
-      "answer": "I’m based in Arlington, Texas, and I’m open to remote and hybrid opportunities."
+      "keywords": [
+        "location",
+        "based",
+        "where",
+        "arlington",
+        "texas",
+        "tx",
+        "remote",
+        "hybrid",
+        "onsite"
+      ],
+      "answer": "I\u2019m based in Arlington, Texas, and I\u2019m open to remote and hybrid opportunities."
     },
     {
       "id": "availability",
-      "keywords": ["hire", "hiring", "available", "looking for", "job search", "open to work", "opportunities", "roles"],
-      "answer": "Yes, I’m actively exploring roles aligned with data engineering and Databricks-focused delivery (and adjacent ML/AI engineering where relevant). The best way to reach me is via email or phone listed in the Contact section of my portfolio."
+      "keywords": [
+        "hire",
+        "hiring",
+        "available",
+        "looking for",
+        "job search",
+        "open to work",
+        "opportunities",
+        "roles"
+      ],
+      "answer": "Yes, I\u2019m actively exploring roles aligned with data engineering and Databricks-focused delivery (and adjacent ML/AI engineering where relevant). The best way to reach me is via email or phone listed in the Contact section of my portfolio."
     },
     {
       "id": "contact",
-      "keywords": ["contact", "email", "phone", "reach", "linkedin", "github"],
+      "keywords": [
+        "contact",
+        "email",
+        "phone",
+        "reach",
+        "linkedin",
+        "github"
+      ],
       "answer": "Email: akhileshgopisetty31@gmail.com | Phone: +1 (469) 450-5500 | You can also reach me via LinkedIn and view my work on GitHub (links are in the Contact section)."
+    },
+    {
+      "id": "unity_catalog_overview",
+      "keywords": [
+        "unity catalog",
+        "uc",
+        "governance",
+        "lineage",
+        "audit",
+        "catalog",
+        "metastore"
+      ],
+      "answer": "Unity Catalog is Databricks\u2019 centralized governance layer for data and AI assets. It provides access control, auditing, lineage, and discovery across Databricks workspaces, so teams can define policies once and apply them consistently."
+    },
+    {
+      "id": "delta_lake_overview",
+      "keywords": [
+        "delta",
+        "delta lake",
+        "delta tables",
+        "acid",
+        "tables",
+        "transactional",
+        "time travel"
+      ],
+      "answer": "Delta tables store data files in cloud object storage and register metadata in a metastore. Delta Lake is the default table format in Databricks, so most tables you create there are Delta tables by default."
+    },
+    {
+      "id": "airflow_backfill",
+      "keywords": [
+        "airflow",
+        "backfill",
+        "dag run",
+        "catchup",
+        "historical",
+        "reprocess"
+      ],
+      "answer": "In Airflow, a backfill creates DAG runs for past dates so you can populate or repair historical data. It\u2019s commonly used when you need to rerun a pipeline for a specific past range."
+    },
+    {
+      "id": "idempotent_backfills",
+      "keywords": [
+        "idempotent",
+        "duplicates",
+        "reprocessing",
+        "backfill without duplicates",
+        "data quality"
+      ],
+      "answer": "Reliable backfills are idempotent\u2014running them multiple times for the same date yields the same result with no duplicates. Common approaches include delete-then-insert, upserts/merge, and partition-aligned writes."
+    },
+    {
+      "id": "data_quality",
+      "keywords": [
+        "data quality",
+        "great expectations",
+        "validation",
+        "checks",
+        "nulls",
+        "audit readiness"
+      ],
+      "answer": "I implement shift-left data quality by validating data at ingestion and pipeline boundaries. This helps prevent null propagation, improves audit readiness, and makes backfills safer and more predictable."
+    },
+    {
+      "id": "llm_function_calling",
+      "keywords": [
+        "llm",
+        "function calling",
+        "rag",
+        "agentic",
+        "aroundme",
+        "openai"
+      ],
+      "answer": "In my AroundMe project, I built an agentic AI layer where an LLM uses function calling to filter, compute, and summarize results from multiple APIs based on user intent."
+    },
+    {
+      "id": "performance_optimization",
+      "keywords": [
+        "performance",
+        "optimization",
+        "speed",
+        "runtime",
+        "parallel",
+        "multiprocessing"
+      ],
+      "answer": "I focus on performance tuning through partitioning strategies, vectorization, and multiprocessing where appropriate, which has delivered major runtime gains on large migration workloads."
     }
   ]
 }
