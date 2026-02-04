@@ -80,6 +80,7 @@ body {
     align-items: center;
     justify-content: center;
     transition: opacity var(--transition-base), visibility var(--transition-base);
+    overflow: hidden;
 }
 
 .site-loader.hide {
@@ -102,6 +103,38 @@ body {
     justify-content: center;
     min-height: 100vh;
     position: relative;
+}
+
+.loader-decor {
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+}
+
+.loader-icon {
+    position: absolute;
+    font-size: 2.8rem;
+    color: #b88c3a;
+    opacity: 0.55;
+    filter: drop-shadow(0 0 10px rgba(184, 140, 58, 0.35));
+    animation: floatIcon 8s ease-in-out infinite;
+}
+
+.loader-icon:nth-child(1) { top: 12%; left: 12%; animation-delay: 0s; }
+.loader-icon:nth-child(2) { top: 22%; right: 18%; animation-delay: 0.5s; }
+.loader-icon:nth-child(3) { top: 55%; left: 8%; animation-delay: 1s; }
+.loader-icon:nth-child(4) { top: 65%; right: 10%; animation-delay: 1.5s; }
+.loader-icon:nth-child(5) { bottom: 18%; left: 28%; animation-delay: 2s; }
+.loader-icon:nth-child(6) { bottom: 22%; right: 28%; animation-delay: 2.5s; }
+.loader-icon:nth-child(7) { top: 30%; right: 36%; animation-delay: 3s; }
+.loader-icon:nth-child(8) { top: 38%; left: 26%; animation-delay: 3.5s; }
+.loader-icon:nth-child(9) { top: 10%; right: 44%; animation-delay: 4s; }
+.loader-icon:nth-child(10) { top: 70%; left: 55%; animation-delay: 4.5s; }
+.loader-icon:nth-child(11) { top: 16%; left: 32%; animation-delay: 5s; }
+
+@keyframes floatIcon {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
 }
 
 .loader-title {
@@ -128,7 +161,7 @@ body {
     left: 50%;
     bottom: 64px;
     transform: translateX(-50%);
-    animation: l18-0 10s linear forwards;
+    animation: l18-0 6s linear forwards;
 }
 
 .loader:before {
@@ -456,17 +489,13 @@ body {
     .hero-slideshow {
         max-width: 400px;
         justify-self: center;
-        order: -1; /* Move slideshow above text on mobile */
+        order: 2; /* Keep image after text on mobile */
     }
 }
 
 @media (max-width: 768px) {
     .hero-slideshow {
-        max-width: 100%;
-    }
-    
-    .slideshow-container {
-        aspect-ratio: 1/1;
+        display: none;
     }
 }
 
